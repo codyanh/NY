@@ -1,0 +1,31 @@
+#!/usr/bin/expect -f
+set timeout 15
+
+set ip_mta     [lindex $argv 0]
+set number_j   [lindex $argv 1]
+
+spawn ssh omadmin@$ip_mta
+expect {
+		"yes/no" { send "yes\r"; exp_continue}
+		"*password:" { send "shangyoo!@#$\r" }
+}
+sleep 1
+#expect "*~*\$$"
+send "kill -9 `pidof MTA.bin`;sleep 1 ;ps -ef |grep 'MTA.bin' |grep -v grep ;echo $?nonothing ; \r"
+
+#sleep 1
+#expect "*~*\$$"
+#send "ps -ef |grep 'MTA.bin' |grep -v grep\r"
+
+#sleep 1
+#expect "*~*\$$"
+#send "echo $?nonothing\r"
+
+expect {
+	"1nonothing" { send_user "$number_j OK $expect_out(0,string)"; exit 0 }
+	"0nonothing" { send_user "$number_j error" ; exit 1 }
+}
+
+expect "*$"
+send "\nexit\n";
+expect eof

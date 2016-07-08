@@ -1,0 +1,18 @@
+#!/usr/bin/expect -f
+set timeout -1
+
+set path_banben    [lindex $argv 0]
+set NFS_IP         [lindex $argv 1]
+set path_NFS       [lindex $argv 2]
+set name_banben    [lindex $argv 3]
+
+spawn scp -r $path_banben omadmin@$NFS_IP:$path_NFS
+expect {
+	"yes/no" { send "yes\r"; exp_continue}
+	"*password:" { send "shangyoo!@#$\r" }
+}
+expect -re "100%"
+send_user "upload banben OK $expect_out(0,string)"
+expect "*$"
+send "exit\r"
+expect eof

@@ -1,0 +1,39 @@
+#!/usr/bin/expect -f
+set timeout 10
+
+set ip_mts          [lindex $argv 0]
+set number_j        [lindex $argv 1]
+set path_mts_work   [lindex $argv 2]
+
+spawn ssh omadmin@$ip_mts
+expect {
+		"yes/no" { send "yes\r"; exp_continue}
+		"*password:" { send "shangyoo!@#$\r" }
+}
+sleep 1
+expect "*$"
+send "kill -9 `pidof MTS.bin`\r"
+
+sleep 1
+#expect "*~*\$$"
+send "cd $path_mts_work/MTS\r"
+
+sleep 1
+#expect "*~*\$$"
+send "./run_mts.sh\r"
+
+#sleep 5
+expect "MTS\$"
+#send "grep 'MTS.bin STARTUP COMPLETED' mts.log\r"
+send "grep 'begin create thread finish' mts.log\r"
+
+sleep 1
+expect "*$"
+send "echo cmd_mts_result=$?\r"
+
+expect {
+	"cmd_mts_result=0" { send_user "$number_j OK $expect_out(0,string)" ; exit 0 }
+	"cmd_mts_result=1" { send_user "$number_j error" ; exit 1 }
+}
+
+expect eof

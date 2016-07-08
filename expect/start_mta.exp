@@ -1,0 +1,28 @@
+#!/usr/bin/expect -f
+set timeout 10
+
+set ip_mta          [lindex $argv 0]
+set number_j        [lindex $argv 1]
+set path_mta_work   [lindex $argv 2]
+
+spawn ssh omadmin@$ip_mta
+expect {
+		"yes/no" { send "yes\r"; exp_continue}
+		"*password:" { send "shangyoo!@#$\r" }
+}
+sleep 1
+expect "*$"
+send "kill -9 `pidof MTA.bin`; cd $path_mta_work/MTA ; ./run_mta.sh ;date ;\r"
+
+expect "MTA*\$"
+sleep 2
+send "date;grep 'MTA.bin STARTUP COMPLETED' mta.log; echo $?nonothing\r"
+
+expect {
+	"0nonothing" { send_user "$number_j OK $expect_out(0,string)" ; exit 0 }
+	"1nonothing" { send_user "$number_j error" ; exit 1 }
+}
+
+expect "*MTA\$"
+send "\nexit\n";
+expect eof

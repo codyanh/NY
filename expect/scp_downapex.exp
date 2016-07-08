@@ -1,0 +1,28 @@
+#!/usr/bin/expect -f
+set timeout 100
+
+
+set ip_upload      [lindex $argv 1]
+set path_upload    [lindex $argv 2]
+set name_server	   [lindex $argv 4]
+
+
+spawn ssh omadmin@$ip_upload
+expect {
+		"yes/no" { send "yes\r"; exp_continue}
+		"*password:" { send "shangyoo!@#$\r" }
+}
+sleep 1
+expect "*$"
+send "cd $path_upload; cd ../hook_log/; curr=`date +"%Y%m%d"`; wait_compress=`ls | grep $curr`; tar czvf $name_server"_apex_"$curr.tar.gz $wait_compress;"
+#scp $name_server"_apex_"$curr.tar.gz 192.168.10.38:/home/omadmin/zuomu/scripts/apexlog/
+
+#spawn scp $name_server"_apex_"$curr.tar.gz 192.168.10.38:/home/omadmin/zuomu/scripts/apexlog/
+#expect {
+#		"yes/no" { send "yes\r"; exp_continue}
+#		"*password:" { send "shangyoo!@#$\r" }
+#}
+
+expect "*$"
+send "\nexit\n";
+expect eof

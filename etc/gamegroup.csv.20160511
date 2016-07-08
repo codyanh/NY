@@ -1,0 +1,45 @@
+#XianLu#servername#moban#netmask#NFS#NewFu#WangGuan#ChineseName
+#moban,即模板，31指单组机柜10台服务器的旧架构中的第一组服，32为第二组，33为第三组
+#              11指单组机柜10台服务器的旧架构中的第一组服，其中11线开在GS05上,区别于31模板
+#             231指2组机柜组合在一起，用于开3组服的第一组服，232为第二组，233为第三组
+#             221指2组机柜组合在一起，用于开2组服的第一组服，222为第二组
+#              KF指跨服服务器1，即有10台服务器组成,类似于31模板
+#             KF2指跨服服务器2，即有4台服务器组成
+#BJBGP_LuGu
+BJBGP25,RongYao,31,192.168.225,192.168.225.6,0,1,荣耀
+BJBGP25,XingJiZhiMen,32,192.168.225,192.168.225.6,0,1,星际之门
+#BJBGP29,HongYun,231,192.168.229,192.168.229.18,0,1,鸿运
+#BJBGP29,ZhanShen,232,192.168.229,192.168.229.28,0,1,战神
+#BJBGP29,TianQu,233,192.168.229,192.168.229.38,0,1,天驱
+
+#BJBGP_ShaHe
+BJBGP45,XingZhanFengYun,261,192.168.245,192.168.245.18,1,1,星战风云
+BJBGP45,FengHuoLianCheng,262,192.168.245,192.168.245.28,1,1,烽火连城
+BJBGP45,TianQu,263,192.168.245,192.168.245.38,1,1,天驱
+
+#BJBGP_AnHua
+#BJBGP30,YinHeDiGuo,31,192.168.230,192.168.230.6,0,1,银河帝国
+BJBGP30,HongYun,31,192.168.230,192.168.230.6,0,1,鸿运
+#BJBGP30,YingXiongShenDian,32,192.168.230,192.168.230.6,0,1,英雄神殿
+BJBGP31,YinHeDiGuo,31,192.168.231,192.168.231.6,0,1,银河帝国
+#BJBGP31,XingZhanFengYun,32,192.168.231,192.168.231.6,0,1,星战风云
+
+#AliYun_HangZhou
+ALI-HZ-NY-1,HaoYueXiaGu,AliYun11,172.18.0,172.18.0.1,0,1,皓月峡谷
+ALI-HZ-NY-2,QingYi,AliYun11,172.18.0,172.18.0.9,0,1,情义
+ALI-HZ-NY-3,ZhanShen,AliYun11,172.19.0,172.19.0.43,0,1,战神
+#ALI-HZ-NY-3,LeiTing,AliYun11,172.18.0,172.18.0.15,0,1,雷霆
+#ALI-HZ-NY-4,ZongHeng,AliYun11,172.18.0,172.18.0.21,0,1,纵横
+#ALI-HZ-NY-5,DingFeng,AliYun11,172.18.0,172.18.0.27,0,1,鼎峰
+ALI-HZ-NY-6,LieYan,AliYun11,172.18.0,172.18.0.30,0,1,烈焰
+ALI-HZ-NY-7,JueZhan,AliYun11,172.18.0,172.18.0.33,0,1,决战
+ALI-HZ-NY-8,ShuGuang,AliYun11,172.19.0,172.19.0.1,0,1,曙光
+ALI-HZ-NY-9,FengBaoCheng,AliYun11,172.19.0,172.19.0.4,0,1,风暴城
+ALI-HZ-NY-10,KuaFuZhanChang2,AliYun11,172.19.0,172.19.0.7,0,1,跨服战场2
+ALI-HZ-NY-11,KuaFuZhanChang,AliYunKF,172.19.0,172.19.0.10,0,1,跨服战场
+#ALI-HZ-NY-12,JiZhan,AliYun11,172.19.0,172.19.0.18,0,1,激战
+#ALI-HZ-NY-13,HeFuCeShi,AliYun11,172.19.0,172.19.0.21,0,1,合服测试
+ALI-HZ-NY-14,ShuiYuZhengFeng,AliYun11,172.19.0,172.19.0.24,0,1,谁与争锋
+ALI-HZ-NY-15,ChuanShuo,AliYun11,172.19.0,172.19.0.27,0,1,传说
+#ALI-HZ-NY-16,Test1,AliYun11,172.19.0,172.19.0.30,0,1,测试1
+ALI-HZ-NY-17,ShouHu,AliYun11,172.19.0,172.19.0.33,0,1,守护

@@ -1,0 +1,29 @@
+#!/usr/bin/expect -f
+set timeout 20
+
+set path_mta_work	[lindex $argv 0]
+set ip_mta      	[lindex $argv 1]
+set NFS_path		[lindex $argv 2]
+set name_file		[lindex $argv 3]
+set number_j		[lindex $argv 4]
+
+spawn ssh $ip_mta
+expect {
+	"yes/no" { send "yes\r"; exp_continue}
+	"*password:" { send "shangyoo!@#$\r" }
+}
+
+sleep 1
+expect "*~*\$$"
+send "cp $NFS_path/$name_file $path_mta_work/ -rf ; echo $?nonothing \r"
+
+#sleep 1
+#expect "*~*\$$"
+#send "echo $?nonothing\r"
+
+expect {
+	"0nonothing" { send_user "$number_j OK $expect_out(0,string)"; exit 0 }
+	timeout { send_user "$number_j error"; exit 1 }
+}
+
+expect eof

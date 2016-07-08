@@ -1,0 +1,288 @@
+<template265>
+    tip    =    5st group in merged cab
+    <PHY_SERVER>
+            ALL_server  =GS01 GS02 GS03 GS04 GS05 GS06 GDB05 DBM05
+    </PHY_SERVER>
+    <gserver>
+        <GS01>
+            IP     = 1
+            <moddir>
+                11    =    /home/FS_server5/
+                12    =    /home/FS_server5/
+                CCS   =    /home/FS_server5/
+            </moddir>
+        </GS01>
+        <GS02>
+            IP     = 2
+            <moddir>
+                11    =    /home/FS_server5/
+                12    =    /home/FS_server5/
+            </moddir>
+        </GS02>
+        <GS03>
+            IP     = 3
+            <moddir>
+                11    =    /home/FS_server5/
+                12    =    /home/FS_server5/
+            </moddir>
+        </GS03>
+        <GS04>
+            IP     = 4
+            <moddir>
+                11    =    /home/FS_server5/
+                12    =    /home/FS_server5/
+            </moddir>
+        </GS04>
+        <GS05>
+            IP     = 5
+            <moddir>
+                11    =    /home/FS_server5/
+                12    =    /home/FS_server5/
+            </moddir>
+        </GS05>
+        <GS06>
+            IP     = 6
+            <moddir>
+                11    =    /home/FS_server5/
+                12    =    /home/FS_server5/
+            </moddir>
+        </GS06>
+        <GDB05>
+            IP     = 57
+            <moddir>
+                BlobUpdate = /home/FS_server5/
+                DBS = /home/FS_server5/
+                DBI = /home/FS_server5/
+                SCS = /home/FS_server5/
+                lua = /home/FS_server5/
+				svr = /home/svr5/
+            </moddir>
+        </GDB05>
+        <DBM05>
+            IP     = 58
+            <moddir>
+                DBM = /home/FS_server5/
+                lua = /home/FS_server5/
+            </moddir>
+        </DBM05>
+        <MTA>                                                                                                                                                  
+                path =/home/MT_agent/
+        </MTA>
+    </gserver>
+    <gmod>
+        <GS1>
+            IP =1
+            port =9920
+            path =/home/FS_server5/GS1/
+            procname =GS1
+        </GS1>
+        <GS2>
+            IP =1
+            port =9921
+            path =/home/FS_server5/GS2/
+            procname =GS2
+        </GS2>
+        <GS3>
+            IP =1
+            port =9922
+			path =/home/FS_server5/GS3/
+            procname =GS3
+        </GS3>
+        <GS4>
+            IP =1
+            port =9923
+            path =/home/FS_server5/GS4/
+            procname =GS4
+        </GS4>
+        <GS5>
+            IP =1
+            port =9924
+            path=/home/FS_server5/GS5/
+            procname=GS5
+        </GS5>
+        <GS6>
+            IP =1
+            port =9925
+            path=/home/FS_server5/GS6/
+            procname=GS6
+        </GS6>
+        <GS7>
+            IP =1
+            port =9926
+            path=/home/FS_server5/GS7/
+            procname=GS7
+        </GS7>
+        <GS8>
+            IP =1
+            port =9927
+            path=/home/FS_server5/GS8/
+            procname=GS8
+        </GS8>
+        <GS9>
+            IP =1
+            port =9928
+            path=/home/FS_server5/GS9/
+            procname=GS9
+        </GS9>
+        <GS10>
+            IP =1
+            port =9929
+            path=/home/FS_server5/GS10/
+            procname=GS10
+        </GS10>
+        <GS11>
+            IP =1
+            port =9950
+            path =  /home/FS_server5/GS11/
+            procname=GS11
+        </GS11>
+        <GS12>
+            IP =1
+            port =9951
+            path=/home/FS_server5/GS12/
+            procname=GS12
+        </GS12>
+        <BCS1>
+            IP =1
+            port =9930
+			path=/home/FS_server5/BCS1/
+            procname=BCS1
+        </BCS1>
+        <BCS2>
+            IP =1
+            port =9931
+            path=/home/FS_server5/BCS2/
+            procname=BCS2
+        </BCS2>
+        <BCS3>
+            IP =1
+            port =9932
+            path=/home/FS_server5/BCS3/
+            procname=BCS3
+        </BCS3>
+        <BCS4>
+            IP =2
+            port =9933
+            path=/home/FS_server5/BCS4/
+            procname=BCS4
+        </BCS4>
+        <BCS5>
+            IP =2
+            port =9934
+            path=/home/FS_server5/BCS5/
+            procname=BCS5
+        </BCS5>
+        <BCS6>
+            IP =2
+            port =9935
+            path=/home/FS_server5/BCS6/
+            procname=BCS6
+        </BCS6>
+        <BCS7>
+            IP =3
+            port =9936
+            path=/home/FS_server5/BCS7/
+            procname=BCS7
+        </BCS7>
+        <BCS8>
+            IP =3
+            port =9937
+            path=/home/FS_server5/BCS8/
+            procname=BCS8
+        </BCS8>
+        <BCS9>
+            IP =3
+            port =9938
+            path=/home/FS_server5/BCS9/
+            procname=BCS9
+        </BCS9>
+        <BCS10>
+            IP =4
+            port =9939
+            path=/home/FS_server5/BCS10/
+            procname=BCS10
+        </BCS10>
+        <BCS11>
+            IP =4
+            port =9940
+            path=/home/FS_server5/BCS11/
+            procname=BCS11
+        </BCS11>
+        <BCS12>
+            IP =4
+            port =9941
+            path=/home/FS_server5/BCS12/
+            procname=BCS12
+        </BCS12>
+        <LS>
+            IP =1
+            port =9915
+            path=/home/FS_server5/LS/
+            procname=LS
+        </LS>
+        <CCS>
+            IP =1
+            port =9917
+            path=/home/FS_server5/CCS/
+            procname=CCS
+        </CCS>
+        <DBS>
+            IP =17
+            port =9911
+            path=/home/FS_server5/DBS/
+            procname=DBS
+        </DBS>
+        <DBI>
+            IP =17
+            port =9913
+            path=/home/FS_server5/DBI/
+            procname=DBI
+        </DBI>
+        <BLOB>
+            IP =17
+            port =9914
+            path=/home/FS_server5/BlobUpdate/
+            procname=BLOB
+        </BLOB>
+        <SCS>
+            IP =17
+            port =
+            path=/home/FS_server5/SCS/
+            procname=SCS
+        </SCS>
+        <APEX>
+            IP =57
+            port =
+            path=/home/svr5/ax_update/
+            procname=AHNetServer
+        </APEX>
+        <DBM>
+            IP =19
+            port =9912
+            path=/home/FS_server5/DBM/
+            procname=DBM
+        </DBM>
+    </gmod>
+    <gdir>
+        <verdir>
+            IP =58
+            dstdir = /home/server5/
+            bakdir = /home/backup/
+            nfsdir = /mnt/server5/
+        </verdir>
+        scriptdir= /mnt/script/
+    </gdir>
+    <gscript>
+        rmt_upload = remote_upload.sh
+        rmt_start  = remote_start.sh
+        rmt_update = remote_update.sh
+        rmt_maint  = remote_maint.sh
+    </gscript>
+    <gconfig>
+        pre_name   =
+        scs_domain =
+        scs_port   =
+	apex_port  =
+	bakdb	   = game
+    </gconfig>
+</template265>

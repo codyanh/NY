@@ -1,0 +1,328 @@
+<template232>
+    tip    =    1st group in merged cab
+    <PHY_SERVER>
+            ALL_server  =BCS04 BCS05 BCS06 BCS07 BCS08 BCS09 BCS10 BCS11 GS02 GDB02 LDB02 DBM02
+    </PHY_SERVER>
+    <gserver>
+        <BCS04>
+            IP     = 4
+            <moddir>
+                1    =    /home/FS_server2/
+                2    =    /home/FS_server2/
+            </moddir>
+        </BCS04>
+        <BCS05>
+            IP     = 5
+            <moddir>
+                3    =    /home/FS_server2/
+                4    =    /home/FS_server2/
+            </moddir>
+        </BCS05>
+        <BCS06>
+            IP     = 6
+            <moddir>
+                5    =    /home/FS_server2/
+                6    =    /home/FS_server2/
+            </moddir>
+        </BCS06>
+        <BCS07>
+            IP     = 7
+            <moddir>
+                7    =    /home/FS_server2/
+                8    =    /home/FS_server2/
+            </moddir>
+        </BCS07>
+        <BCS08>
+            IP     = 8
+            <moddir>
+                9    =    /home/FS_server2/
+                10    =    /home/FS_server2/
+            </moddir>
+        </BCS08>
+        <BCS09>
+            IP     = 9
+            <moddir>
+                11    =    /home/FS_server2/
+                12    =    /home/FS_server2/
+            </moddir>
+        </BCS09>
+        <BCS10>
+            IP     = 10
+            <moddir>
+                13    =    /home/FS_server2/
+                14    =    /home/FS_server2/
+            </moddir>
+        </BCS10>
+        <BCS11>
+            IP     = 11
+            <moddir>
+                9    =    /home/FS_server2/
+                10    =    /home/FS_server2/
+            </moddir>
+        </BCS11>
+        <GS02>
+            IP     = 26
+            <moddir>
+                1    =    /home/FS_server2/
+                2    =    /home/FS_server2/
+                3    =    /home/FS_server2/
+                4    =    /home/FS_server2/
+                5    =    /home/FS_server2/
+                6    =    /home/FS_server2/
+                7    =    /home/FS_server2/
+                8    =    /home/FS_server2/
+                9    =    /home/FS_server2/
+                10    =    /home/FS_server2/
+                11    =    /home/FS_server2/
+                12    =    /home/FS_server2/
+                13    =    /home/FS_server2/
+                14    =    /home/FS_server2/
+                15    =    /home/FS_server2/
+                16    =    /home/FS_server2/
+                CCS   =     /home/FS_server2/
+            </moddir>
+        </GS02>
+        <GDB02>
+            IP     = 27
+            <moddir>
+                BlobUpdate = /home/FS_server2/
+                DBS = /home/FS_server2/
+                DBI = /home/FS_server2/
+                SCS = /home/FS_server2/
+                lua = /home/FS_server2/
+				svr = /home/svr2/
+            </moddir>
+        </GDB02>
+        <LDB02>
+            IP     = 28
+            <moddir>
+            </moddir>
+        </LDB02>
+        <DBM02>
+            IP     = 29
+            <moddir>
+                DBM = /home/FS_server2/
+                lua = /home/FS_server2/
+            </moddir>
+        </DBM02>
+        <MTA>                                                                                                                                                  
+                path =/home/MT_agent/
+        </MTA>
+    </gserver>
+    <gmod>
+        <GS1>
+            IP =26
+            port =9920
+            path =/home/FS_server2/ser2_GS1/
+            procname =GS1
+        </GS1>
+        <GS2>
+            IP =26
+            port =9921
+            path =/home/FS_server2/ser2_GS2/
+            procname =GS2
+        </GS2>
+        <GS3>
+            IP =26
+            port =9922
+			path =/home/FS_server2/ser2_GS3/
+            procname =GS3
+        </GS3>
+        <GS4>
+            IP =26
+            port =9923
+            path =/home/FS_server2/ser2_GS4/
+            procname =GS4
+        </GS4>
+        <GS5>
+            IP =26
+            port =9924
+            path=/home/FS_server2/ser2_GS5/
+            procname=GS5
+        </GS5>
+        <GS6>
+            IP =26
+            port =9925
+            path=/home/FS_server2/ser2_GS6/
+            procname=GS6
+        </GS6>
+        <GS7>
+            IP =26
+            port =9926
+            path=/home/FS_server2/ser2_GS7/
+            procname=GS7
+        </GS7>
+        <GS8>
+            IP =26
+            port =9927
+            path=/home/FS_server2/ser2_GS8/
+            procname=GS8
+        </GS8>
+        <GS9>
+            IP =26
+            port =9928
+            path=/home/FS_server2/ser2_GS9/
+            procname=GS9
+        </GS9>
+        <GS10>
+            IP =26
+            port =9929
+            path=/home/FS_server2/ser2_GS10/
+            procname=GS10
+        </GS10>
+        <GS11>
+            IP =26
+            port =9950
+            path =  /home/FS_server2/ser2_GS11/
+            procname=GS11
+        </GS11>
+        <GS12>
+            IP =26
+            port =9951
+            path=/home/FS_server2/ser2_GS12/
+            procname=GS12
+        </GS12>
+        <BCS1>
+            IP =4
+            port =9830
+			path=/home/FS_server2/ser2_BCS1/
+            procname=BCS1
+        </BCS1>
+        <BCS2>
+            IP =4
+            port =9931
+            path=/home/FS_server2/ser2_BCS2/
+            procname=BCS2
+        </BCS2>
+        <BCS3>
+            IP =5
+            port =9932
+            path=/home/FS_server2/ser2_BCS3/
+            procname=BCS3
+        </BCS3>
+        <BCS4>
+            IP =5
+            port =9933
+            path=/home/FS_server2/ser2_BCS4/
+            procname=BCS4
+        </BCS4>
+        <BCS5>
+            IP =6
+            port =9934
+            path=/home/FS_server2/ser2_BCS5/
+            procname=BCS5
+        </BCS5>
+        <BCS6>
+            IP =6
+            port =9935
+            path=/home/FS_server2/ser2_BCS6/
+            procname=BCS6
+        </BCS6>
+        <BCS7>
+            IP =7
+            port =9936
+            path=/home/FS_server2/ser2_BCS7/
+            procname=BCS7
+        </BCS7>
+        <BCS8>
+            IP =7
+            port =9937
+            path=/home/FS_server2/ser2_BCS8/
+            procname=BCS8
+        </BCS8>
+        <BCS9>
+            IP =8
+            port =9938
+            path=/home/FS_server2/ser2_BCS9/
+            procname=BCS9
+        </BCS9>
+        <BCS10>
+            IP =8
+            port =9939
+            path=/home/FS_server2/ser2_BCS10/
+            procname=BCS10
+        </BCS10>
+        <BCS11>
+            IP =11
+            port =9940
+            path=/home/FS_server2/ser2_BCS11/
+            procname=BCS11
+        </BCS11>
+        <BCS12>
+            IP =11
+            port =9941
+            path=/home/FS_server2/ser2_BCS12/
+            procname=BCS12
+        </BCS12>
+        <LS>
+            IP =9
+            port =9915
+            path=/home/FS_server2/ser2_LS/
+            procname=LS
+        </LS>
+        <CCS>
+            IP =26
+            port =9917
+            path=/home/FS_server2/ser2_CCS/
+            procname=CCS
+        </CCS>
+        <DBS>
+            IP =27
+            port =9911
+            path=/home/FS_server2/ser2_DBS/
+            procname=DBS
+        </DBS>
+        <DBI>
+            IP =27
+            port =9913
+            path=/home/FS_server2/ser2_DBI/
+            procname=DBI
+        </DBI>
+        <BLOB>
+            IP =27
+            port =9914
+            path=/home/FS_server2/BlobUpdate/
+            procname=BLOB
+        </BLOB>
+        <SCS>
+            IP =27
+            port =
+            path=/home/FS_server2/SCS/
+            procname=SCS
+        </SCS>
+        <APEX>
+            IP =27
+            port =
+            path=/home/svr2/ax_update/
+            procname=AHNetServer
+        </APEX>
+        <DBM>
+            IP =29
+            port =9912
+            path=/home/FS_server2/ser2_DBM/
+            procname=DBM
+        </DBM>
+    </gmod>
+    <gdir>
+        <verdir>
+            IP =18
+            dstdir = /home/server2/
+            bakdir = /home/backup/
+            nfsdir = /mnt/server2/
+        </verdir>
+        scriptdir= /mnt/script/
+    </gdir>
+    <gscript>
+        rmt_upload = remote_upload.sh
+        rmt_start  = remote_start.sh
+        rmt_update = remote_update.sh
+        rmt_maint  = remote_maint.sh
+    </gscript>
+    <gconfig>
+        pre_name   =
+        scs_domain =
+        scs_port   =
+	apex_port  =
+	bakdb	   = game
+    </gconfig>
+</template232>

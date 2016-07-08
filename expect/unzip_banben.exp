@@ -1,0 +1,24 @@
+#!/usr/bin/expect -f
+set timeout -1
+
+set path_banben    [lindex $argv 0]
+set NFS_IP         [lindex $argv 1]
+set path_NFS       [lindex $argv 2]
+set name_banben    [lindex $argv 3]
+
+spawn ssh omadmin@$NFS_IP
+expect {
+		"yes/no" { send "yes\r"; exp_continue}
+		"*password:" { send "shangyoo!@#$\r" }
+}
+sleep 1
+
+expect "*$"
+send "cd $path_NFS\r"
+
+expect "*$"
+send "unzip -o $name_banben\r"
+
+expect "*$"
+send "exit\r"
+expect eof

@@ -1,0 +1,46 @@
+spawn scp server_list.xml.201607022355 192.168.30.21:/home/update/server_list.xml
+omadmin@192.168.30.21's password: 
+server_list.xml.201607022355                    0%    0     0.0KB/s   --:-- ETAserver_list.xml.201607022355                  100%   16KB  15.6KB/s   00:00    
+wait a minute!oh yeah
+spawn scp server_list.xml.201607022355 192.168.30.21:/home/update2/server_list.xml
+omadmin@192.168.30.21's password: 
+server_list.xml.201607022355                    0%    0     0.0KB/s   --:-- ETAserver_list.xml.201607022355                  100%   16KB  15.6KB/s   00:00    
+wait a minute!oh yeah
+spawn scp server_list.xml.201607022355 192.168.30.21:/home/lx/update/server_list.xml
+omadmin@192.168.30.21's password: 
+server_list.xml.201607022355                    0%    0     0.0KB/s   --:-- ETAserver_list.xml.201607022355                  100%   16KB  15.6KB/s   00:00    
+wait a minute!oh yeah
+spawn scp server_list.xml.201607022355 192.168.30.21:/home/lx/update2/server_list.xml
+omadmin@192.168.30.21's password: 
+server_list.xml.201607022355                    0%    0     0.0KB/s   --:-- ETAserver_list.xml.201607022355                  100%   16KB  15.6KB/s   00:00    
+wait a minute!oh yeah
+spawn scp server_list.xml.201607022355 172.19.0.90:/home/update/server_list.xml
+omadmin@172.19.0.90's password: 
+server_list.xml.201607022355                    0%    0     0.0KB/s   --:-- ETAserver_list.xml.201607022355                  100%   16KB  15.6KB/s   00:00    
+wait a minute!oh yeah
+spawn scp server_list.xml.201607022355 172.19.0.90:/home/update2/server_list.xml
+omadmin@172.19.0.90's password: 
+server_list.xml.201607022355                    0%    0     0.0KB/s   --:-- ETAserver_list.xml.201607022355                  100%   16KB  15.6KB/s   00:00    
+wait a minute!oh yeah
+spawn scp server_list.xml.201607022355 172.19.0.90:/home/lx/update/server_list.xml
+omadmin@172.19.0.90's password: 
+server_list.xml.201607022355                    0%    0     0.0KB/s   --:-- ETAserver_list.xml.201607022355                  100%   16KB  15.6KB/s   00:00    
+wait a minute!oh yeah
+spawn scp server_list.xml.201607022355 172.19.0.90:/home/lx/update2/server_list.xml
+omadmin@172.19.0.90's password: 
+server_list.xml.201607022355                    0%    0     0.0KB/s   --:-- ETAserver_list.xml.201607022355                  100%   16KB  15.6KB/s   00:00    
+wait a minute!oh yeah
+[40;32mÉÏ´«Ô´Õ¾Íê±Ï,ÕýÔÚÍÆËÍ...[0m
+
+ÍøËÞÍÆËÍµÄ½á¹û: 
+[40;33m ÔÙµÈ»á¶ù  10s... [0m
+[40;33m ÔÙµÈ»á¶ù  20s... [0m
+[40;33m ÔÙµÈ»á¶ù  30s... [0m
+[40;33m ÔÙµÈ»á¶ù  40s... [0m
+[40;33m ÔÙµÈ»á¶ù  50s... [0m
+[40;33m ÔÙµÈ»á¶ù  60s... [0m
+[40;33m ÔÙµÈ»á¶ù  70s... [0m
+[40;33m ÔÙµÈ»á¶ù  80s... [0m
+[40;33m ÔÙµÈ»á¶ù  90s... [0m
+[40;33m ÔÙµÈ»á¶ù  100s... [0m
+2016-07-02 23:52:02

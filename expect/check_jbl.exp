@@ -1,0 +1,22 @@
+#!/usr/bin/expect -f
+set timeout 20
+
+set alarm_IP      [lindex $argv 0]
+set alarm_path    [lindex $argv 1]
+
+spawn ssh omadmin@$alarm_IP
+expect {
+                "yes/no" { send "yes\r"; exp_continue}
+                "*password:" { send "shangyoo!@#$\r" }
+}
+
+sleep 1
+
+expect "*$"
+send "ls $alarm_path\r"
+
+expect {
+		"No such file" { send_user "This server $expect_out(0,string)"; exp_continue }
+		"*$" {send "exit\r"}
+		}
+expect eof

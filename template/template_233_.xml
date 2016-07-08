@@ -1,0 +1,376 @@
+<template233>
+    tip    =    1st group in merged cab
+    <PHY_SERVER>
+            ALL_server  =BCS01 BCS02 BCS03 BCS07 BCS08 BCS09 BCS10 BCS11 GS03 GDB03 LDB03 DBM03
+    </PHY_SERVER>
+    <gserver>
+        <BCS10>
+            IP     = 10
+            <moddir>
+                1    =    /home/FS_server3/
+                2    =    /home/FS_server3/
+            </moddir>
+        </BCS10>
+        <BCS09>
+            IP     = 9
+            <moddir>
+                3    =    /home/FS_server3/
+                4    =    /home/FS_server3/
+            </moddir>
+        </BCS09>
+        <BCS11>
+            IP     = 11
+            <moddir>
+                5    =    /home/FS_server3/
+                6    =    /home/FS_server3/
+            </moddir>
+        </BCS11>
+        <BCS01>
+            IP     = 1
+            <moddir>
+                7    =    /home/FS_server3/
+                8    =    /home/FS_server3/
+            </moddir>
+        </BCS01>
+        <BCS02>
+            IP     = 2
+            <moddir>
+                9    =    /home/FS_server3/
+                10    =    /home/FS_server3/
+            </moddir>
+        </BCS02>
+        <BCS03>
+            IP     = 3
+            <moddir>
+                11    =    /home/FS_server3/
+                12    =    /home/FS_server3/
+            </moddir>
+        </BCS03>
+        <BCS08>
+            IP     = 8
+            <moddir>
+                13    =    /home/FS_server3/
+                14    =    /home/FS_server3/
+            </moddir>
+        </BCS08>
+        <BCS07>
+            IP     = 7
+            <moddir>
+                15    =    /home/FS_server3/
+                16    =    /home/FS_server3/
+            </moddir>
+        </BCS07>
+        <GS03>
+            IP     = 36
+            <moddir>
+                1    =    /home/FS_server3/
+                2    =    /home/FS_server3/
+                3    =    /home/FS_server3/
+                4    =    /home/FS_server3/
+                5    =    /home/FS_server3/
+                6    =    /home/FS_server3/
+                7    =    /home/FS_server3/
+                8    =    /home/FS_server3/
+                9    =    /home/FS_server3/
+                10    =    /home/FS_server3/
+                11    =    /home/FS_server3/
+                12    =    /home/FS_server3/
+                13    =    /home/FS_server3/
+                14    =    /home/FS_server3/
+                15    =    /home/FS_server3/
+                16    =    /home/FS_server3/
+                CCS   =     /home/FS_server3/
+            </moddir>
+        </GS03>
+        <GDB03>
+            IP     = 37
+            <moddir>
+                BlobUpdate = /home/FS_server3/
+                DBS = /home/FS_server3/
+                DBI = /home/FS_server3/
+                SCS = /home/FS_server3/
+                lua = /home/FS_server3/
+				svr = /home/svr3/
+            </moddir>
+        </GDB03>
+        <LDB03>
+            IP     = 38
+            <moddir>
+            </moddir>
+        </LDB03>
+        <DBM03>
+            IP     = 39
+            <moddir>
+                DBM = /home/FS_server3/
+                lua = /home/FS_server3/
+            </moddir>
+        </DBM03>
+        <MTA>
+                path =/home/MT_agent/
+        </MTA>
+    </gserver>
+    <gmod>
+        <GS1>
+            IP =36
+            port =9720
+            path =/home/FS_server3/ser3_GS1/
+            procname =GS1
+        </GS1>
+        <GS2>
+            IP =36
+            port =9721
+            path =/home/FS_server3/ser3_GS2/
+            procname =GS2
+        </GS2>
+        <GS3>
+            IP =36
+            port =9722
+			path =/home/FS_server3/ser3_GS3/
+            procname =GS3
+        </GS3>
+        <GS4>
+            IP =36
+            port =9723
+            path =/home/FS_server3/ser3_GS4/
+            procname =GS4
+        </GS4>
+        <GS5>
+            IP =36
+            port =9724
+            path=/home/FS_server3/ser3_GS5/
+            procname=GS5
+        </GS5>
+        <GS6>
+            IP =36
+            port =9725
+            path=/home/FS_server3/ser3_GS6/
+            procname=GS6
+        </GS6>
+        <GS7>
+            IP =36
+            port =9726
+            path=/home/FS_server3/ser3_GS7/
+            procname=GS7
+        </GS7>
+        <GS8>
+            IP =36
+            port =9727
+            path=/home/FS_server3/ser3_GS8/
+            procname=GS8
+        </GS8>
+        <GS9>
+            IP =36
+            port =9728
+            path=/home/FS_server3/ser3_GS9/
+            procname=GS9
+        </GS9>
+        <GS10>
+            IP =36
+            port =9729
+            path=/home/FS_server3/ser3_GS10/
+            procname=GS10
+        </GS10>
+        <GS11>
+            IP =36
+            port =9750
+            path=/home/FS_server3/ser3_GS11/
+            procname=GS11
+        </GS11>
+        <GS12>
+            IP =36
+            port =9751
+            path=/home/FS_server3/ser3_GS12/
+            procname=GS12
+        </GS12>
+        <GS13>
+            IP =36
+            port =9752
+            path=/home/FS_server3/ser3_GS13/
+            procname=GS13
+        </GS13>
+        <GS14>
+            IP =36
+            port =9753
+            path=/home/FS_server3/ser3_GS14/
+            procname=GS14
+        </GS14>
+        <GS15>
+            IP =36
+            port =9754
+            path=/home/FS_server3/ser3_GS15/
+            procname=GS15
+        </GS15>
+        <GS16>
+            IP =36
+            port =9755
+			path=/home/FS_server3/ser3_GS16/
+            procname=GS16
+        </GS16>
+        <BCS1>
+            IP =10
+            port =9830
+			path=/home/FS_server3/ser3_BCS1/
+            procname=BCS1
+        </BCS1>
+        <BCS2>
+            IP =10
+            port =9931
+            path=/home/FS_server3/ser3_BCS2/
+            procname=BCS2
+        </BCS2>
+        <BCS3>
+            IP =9
+            port =9932
+            path=/home/FS_server3/ser3_BCS3/
+            procname=BCS3
+        </BCS3>
+        <BCS4>
+            IP =9
+            port =9933
+            path=/home/FS_server3/ser3_BCS4/
+            procname=BCS4
+        </BCS4>
+        <BCS5>
+            IP =11
+            port =9934
+            path=/home/FS_server3/ser3_BCS5/
+            procname=BCS5
+        </BCS5>
+        <BCS6>
+            IP =11
+            port =9935
+            path=/home/FS_server3/ser3_BCS6/
+            procname=BCS6
+        </BCS6>
+        <BCS7>
+            IP =1
+            port =9936
+            path=/home/FS_server3/ser3_BCS7/
+            procname=BCS7
+        </BCS7>
+        <BCS8>
+            IP =1
+            port =9937
+            path=/home/FS_server3/ser3_BCS8/
+            procname=BCS8
+        </BCS8>
+        <BCS9>
+            IP =2
+            port =9938
+            path=/home/FS_server3/ser3_BCS9/
+            procname=BCS9
+        </BCS9>
+        <BCS10>
+            IP =2
+            port =9939
+            path=/home/FS_server3/ser3_BCS10/
+            procname=BCS10
+        </BCS10>
+        <BCS11>
+            IP =3
+            port =9940
+            path=/home/FS_server3/ser3_BCS11/
+            procname=BCS11
+        </BCS11>
+        <BCS12>
+            IP =3
+            port =9941
+            path=/home/FS_server3/ser3_BCS12/
+            procname=BCS12
+        </BCS12>
+        <BCS13>
+            IP =8
+            port =9941
+            path=/home/FS_server3/ser3_BCS13/
+            procname=BCS13
+        </BCS13>
+        <BCS14>
+            IP =8
+            port =9941
+            path=/home/FS_server3/ser3_BCS14/
+            procname=BCS14
+        </BCS14>
+        <BCS15>
+            IP =7
+            port =9941
+            path=/home/FS_server3/ser3_BCS15/
+            procname=BCS15
+        </BCS15>
+        <BCS16>
+            IP =7
+            port =9941
+            path=/home/FS_server3/ser3_BCS16/
+            procname=BCS16
+        </BCS16>
+        <LS>
+            IP =11
+            port =9915
+            path=/home/FS_server3/ser3_LS/
+            procname=LS
+        </LS>
+        <CCS>
+            IP =36
+            port =9917
+            path=/home/FS_server3/ser3_CCS/
+            procname=CCS
+        </CCS>
+        <DBS>
+            IP =37
+            port =9911
+            path=/home/FS_server3/ser3_DBS/
+            procname=DBS
+        </DBS>
+        <DBI>
+            IP =37
+            port =9913
+            path=/home/FS_server3/ser3_DBI/
+            procname=DBI
+        </DBI>
+        <BLOB>
+            IP =37
+            port =9914
+            path=/home/FS_server3/BlobUpdate/
+            procname=BLOB
+        </BLOB>
+        <SCS>
+            IP =37
+            port =
+            path=/home/FS_server3/SCS/
+            procname=SCS
+        </SCS>
+        <APEX>
+            IP =37
+            port =
+            path=/home/svr3/ax_update/
+            procname=AHNetServer
+        </APEX>
+        <DBM>
+            IP =39
+            port =9912
+            path=/home/FS_server3/ser3_DBM/
+            procname=DBM
+        </DBM>
+    </gmod>
+    <gdir>
+        <verdir>
+            IP =18
+            dstdir = /home/server3/
+            bakdir = /home/backup/
+            nfsdir = /mnt/server3/
+        </verdir>
+        scriptdir= /mnt/script/
+    </gdir>
+    <gscript>
+        rmt_upload = remote_upload.sh
+        rmt_start  = remote_start.sh
+        rmt_update = remote_update.sh
+        rmt_maint  = remote_maint.sh
+    </gscript>
+    <gconfig>
+        pre_name   =
+        scs_domain =
+        scs_port   =
+	apex_port  =
+	bakdb	   = game
+    </gconfig>
+</template233>

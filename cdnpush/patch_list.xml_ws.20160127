@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="gb2312"?>
+<root>
+	<patch url="http://update02.syyx.com/nycs/update/patchfile">
+	<file filename="patch.3.00.241.sy" checksum="cd03132a2d7bec6a37767050e393b958" launcher_checksum="b8a7cf3b7705c5571a79e8b313a8498f"/>
+	<file filename="patch.3.00.242.sy" checksum="4987d15bb6b309898ce20a02f64d181b" launcher_checksum="b8a7cf3b7705c5571a79e8b313a8498f"/>
+	<file filename="patch.3.00.243.sy" checksum="fd9d6a4ac2bd0fd7d6269c64ff17364f" launcher_checksum="b8a7cf3b7705c5571a79e8b313a8498f"/>
+	<file filename="patch.3.00.244.sy" checksum="29f123fe91faeacbe9a22f47c9b24228" launcher_checksum="f0bc352730e9fef1565ab7640ae1f4c4"/>
+  <file filename="patch.3.00.245.sy" checksum="c6d695e1a269ab7a559cb6999f17d885" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.246.sy" checksum="3c7f363caab21f87102841470efa3f19" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.247.sy" checksum="8d82e6477447a5c9a9da8567f06962e6" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.248.sy" checksum="e8ad47f856facb3619bedea5cae05dca" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.249.sy" checksum="16d3bf13dbdedc733932f3154973fa0e" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.250.sy" checksum="e69018fc84d6eb8f7ad9b0ad49fd3a15" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.251.sy" checksum="f06b509c9c59f626b1e53902927f8873" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>  
+  <file filename="patch.3.00.252.sy" checksum="a35a75d7ebd7810b50082440d113f169" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.251.1.sy" checksum="062259bef49b02bfe4d37c1d16f56b8e" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.251.2.sy" checksum="2e4d76dc5e79f64d9f367169a2d66a7c" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.253.sy" checksum="1237dca2ea4f204787ab3233bfd41504" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.254.sy" checksum="5be27c0cb3097e4b511b8e1f8d132c78" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.255.sy" checksum="bf8d370b1eba664ca7dc6e8e3cb6d7f9" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.256.sy" checksum="190039104d52b90a7bc109acfd5b47cc" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.247-3.00.256.sy" checksum="3c7f5bd941cc612939684964e8254d12" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.257.sy" checksum="859135e280d8e98b36aedb231187f77c" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.258.sy" checksum="b66e71eebc170bffd9f3d2e0256d842e" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.259.sy" checksum="435d988a0bd3b514fbe459e92b8eab02" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.260.sy" checksum="60254ddc2958dac3e1f4d307056ea66b" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.261.sy" checksum="97022cbd69dcc45bc38064eb9d37cc54" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.262.sy" checksum="7498c5a13e79005d0eff75973736b57a" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.263.sy" checksum="97b151686e434f4ac8a2bb6ccfdd6bed" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.264.sy" checksum="247e5541291ba160ab87f93258aae2ce" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.265.sy" checksum="f8b67e8f48f8cf699505c84e5daca86d" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.266.sy" checksum="25bfe9ff8b046d196564fabc487e4c51" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.256-3.00.266.sy" checksum="00e788f71da69ad972f5155a6dcae3de" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.267.sy" checksum="1f2a4cc553698079befdadba919ed888" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.268.sy" checksum="0be2c6c679d89f15a782bab7d8fb28e8" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.269.sy" checksum="ef8ca6226248dab13e3a5e7bc43c04b2" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.270.sy" checksum="6e6e05111b84c593864213e6411a35fb" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.271.sy" checksum="2206a08113092d2ded165b88c594fead" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.272.sy" checksum="7283c6269e3e1e72ee2d63b1fcd4142d" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.273.sy" checksum="79268d5aa5292d121665592d1825377e" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.274.sy" checksum="4cb887d60103b1ea986f688e65691566" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.266-3.00.275.sy" checksum="4c4a97a614129fd40f36a61f0c7085d6" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.275.sy" checksum="2f704a7b85e6c66bf816e2ac2dd0bc87" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.276.sy" checksum="c0bc7a6e86e095d66ac1d5386ba1e210" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.277.sy" checksum="8f60a22e89d861cbe43089a4517f7303" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.278.sy" checksum="2ac0cf5471c18aea0abf575547233c18" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.279.sy" checksum="c95f76dcc9ddc95ae483c3248c97a14d" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.280.sy" checksum="30e59a367716626b2f4b5267fa7dfa75" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.281.sy" checksum="e3346cb935f748b06bd8fbec23530ef5" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.282.sy" checksum="6036a68f883735f77a4797fe4bca955c" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+  <file filename="patch.3.00.283.sy" checksum="3cc4900eae2f723b4715db4eaf28b5f2" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+	<file filename="patch.3.00.284.sy" checksum="adf17c69d916e86fd7ea9f075f26fcc7" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+	<file filename="patch.3.00.285.sy" checksum="ce3e884a9048648472deeb935eb87db3" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+	<file filename="patch.3.00.286.sy" checksum="0e72735cdef81906349187b1836cf36b" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+	<file filename="patch.3.00.287.sy" checksum="a611bd1660188f108accb549726a4bf4" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+	<file filename="patch.3.00.288.sy" checksum="83dca8b707dbfd8b7bad86ca164820ce" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+	<file filename="patch.3.00.289.sy" checksum="8a468fc2dae37af1eb026a613c3ad9c4" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+	<file filename="patch.3.00.275-3.00.289.sy" checksum="7ddc3e618319340054d161ba830a99f7" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+	<file filename="patch.3.00.290.sy" checksum="a208410deb51ffd2e4d3f6c93fc0a543" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+	<file filename="patch.3.00.291.sy" checksum="fa9c1af4381a420ff4de7529a0ac6c94" launcher_checksum="8d71e92f476e95c8dc30fe5bb55b3494"/>
+	<file filename="patch.3.00.292.sy" checksum="e84f300ffdce8ad98c0827ee0e3c0da0" launcher_checksum="3210ca37063c2c7389b400cb099941cd"/>	
+	<file filename="patch.3.00.293.sy" checksum="c174f46f02346e4e7622051653928c63" launcher_checksum="3210ca37063c2c7389b400cb099941cd"/>
+	<file filename="patch.3.00.294.sy" checksum="778d07d5c403b699cee3aa1a03882526" launcher_checksum="3210ca37063c2c7389b400cb099941cd"/>
+	<file filename="patch.3.00.294.1.sy" checksum="fbe6ce5fb636ed4185062355c98d8ab2" launcher_checksum="ecdea9d226482b2e8120cbe5e1cb61aa"/>
+	<file filename="patch.3.00.295.sy" checksum="5032fb3f37d748ae42715e8f8153bb99" launcher_checksum="ecdea9d226482b2e8120cbe5e1cb61aa"/>
+	<file filename="patch.3.00.296.sy" checksum="f3acf08dbbcb15e6ea00eb22d7562d9f" launcher_checksum="ecdea9d226482b2e8120cbe5e1cb61aa"/>
+	<file filename="patch.3.00.297.sy" checksum="d51129e79d2ceb380237644581b0fc9b" launcher_checksum="ecdea9d226482b2e8120cbe5e1cb61aa"/>
+  <file filename="patch.3.00.298.sy" checksum="f77f5b88389b012f3f2e075a6cd9a809" launcher_checksum="da0b7775e3cc44bd3aa9bb5436cce0f4"/>
+  <file filename="patch.3.00.299.sy" checksum="cb4655678f55e16056f47b32df287eb4" launcher_checksum="da0b7775e3cc44bd3aa9bb5436cce0f4"/>
+  <file filename="patch.3.00.300.sy" checksum="50048fdc2298b4c68851d346f5514e59" launcher_checksum="da0b7775e3cc44bd3aa9bb5436cce0f4"/>
+  <file filename="patch.3.00.301.sy" checksum="cf80492e605fa8a291e36d28a4299d13" launcher_checksum="da0b7775e3cc44bd3aa9bb5436cce0f4"/>
+  <file filename="patch.3.00.302.sy" checksum="d35ba3abe1fb47a1cb5afab33f8bf54b" launcher_checksum="da0b7775e3cc44bd3aa9bb5436cce0f4"/>
+  <file filename="patch.3.00.303.sy" checksum="c9ffbe79227dfef2b0a564608f26989b" launcher_checksum="da0b7775e3cc44bd3aa9bb5436cce0f4"/>
+  <file filename="patch.3.00.304.sy" checksum="96d6dbb180a3ce8196eb83415ad6db65" launcher_checksum="da0b7775e3cc44bd3aa9bb5436cce0f4"/>
+  <file filename="patch.3.00.305.sy" checksum="c62bddce0e7c778cb27f1757c02239aa" launcher_checksum="da0b7775e3cc44bd3aa9bb5436cce0f4"/>
+  <file filename="patch.3.00.306.sy" checksum="6f70e2774f390966878649b911e88016" launcher_checksum="da0b7775e3cc44bd3aa9bb5436cce0f4"/>
+  <file filename="patch.3.00.307.sy" checksum="bbfa7f6d43b56981005daa2ae8a2fc37" launcher_checksum="da0b7775e3cc44bd3aa9bb5436cce0f4"/>
+  <file filename="patch.3.00.308.sy" checksum="7ec38d12a43ee2d1848b74cb1b7ed1ea" launcher_checksum="7e548f018a80066b52548e213492339b"/>
+  <file filename="patch.3.00.309.sy" checksum="1848e34dbbe2baed934d5bbb10a873c3" launcher_checksum="7e548f018a80066b52548e213492339b"/>
+  <file filename="patch.3.00.310.sy" checksum="face915b692e75e1243cb0a673cbee30" launcher_checksum="7e548f018a80066b52548e213492339b"/>
+  <file filename="patch.3.00.311.sy" checksum="8dec23e918f9fdc2416a2671eca15a20" launcher_checksum="7e548f018a80066b52548e213492339b"/>
+  <file filename="patch.3.00.312.sy" checksum="a80eb06dd802a0faed85d7cfc5d9091a" launcher_checksum="7e548f018a80066b52548e213492339b"/>
+  <file filename="patch.3.00.313.sy" checksum="3c7f8fd1c24acf81949f16820cb2b1f2" launcher_checksum="7e548f018a80066b52548e213492339b"/>
+  <file filename="patch.3.00.314.sy" checksum="c60779b30929f7b2c864ea5664cfa3f1" launcher_checksum="7e548f018a80066b52548e213492339b"/>
+  <file filename="patch.3.00.315.sy" checksum="540e9f55a9c36b542b5abee78da4b7d0" launcher_checksum="7e548f018a80066b52548e213492339b"/>
+  <file filename="patch.3.00.316.sy" checksum="6488e89eb1ad2246260386ffc89deca9" launcher_checksum="7e548f018a80066b52548e213492339b"/>
+  <file filename="patch.3.00.317.sy" checksum="84fa709dfce6b6a94318def86c8d8b69" launcher_checksum="6ed5901a3619aaf27083cffbba02c1b7"/>
+  <file filename="patch.3.00.318.sy" checksum="60fad0cb069001a6a7fa8f1f4ff5e17b" launcher_checksum="6ed5901a3619aaf27083cffbba02c1b7"/>
+  <file filename="patch.3.00.318.1.sy" checksum="84b4f097720f73b1b6ec2e7c4ac94954" launcher_checksum="6ed5901a3619aaf27083cffbba02c1b7"/>
+  <file filename="patch.3.00.319.sy" checksum="4003cb3b3099323a13a50d21cacb3a9a" launcher_checksum="6ed5901a3619aaf27083cffbba02c1b7"/>
+  <file filename="patch.3.00.320.sy" checksum="50acbb04ef0a2e4a43a0a77eaef69a42" launcher_checksum="6ed5901a3619aaf27083cffbba02c1b7"/>
+  <file filename="patch.3.00.321.sy" checksum="3e850b7c17528d1f085506b26a5f41a9" launcher_checksum="6ed5901a3619aaf27083cffbba02c1b7"/>
+  <file filename="patch.3.00.322.sy" checksum="ab22b5278d774bead6de92140e3e43bc" launcher_checksum="6ed5901a3619aaf27083cffbba02c1b7"/>
+  <file filename="patch.3.00.323.sy" checksum="4b8c4ace82dc8937231c7a91e21c7796" launcher_checksum="6ed5901a3619aaf27083cffbba02c1b7"/>
+  <file filename="patch.3.00.324.sy" checksum="a6804096ab1e583ee06e76d58590b67d" launcher_checksum="6ed5901a3619aaf27083cffbba02c1b7"/>
+	<file filename="patch.3.00.324.1.sy" checksum="22195fcfc1d4c8e8dec338e1c9d232d6" launcher_checksum="6ed5901a3619aaf27083cffbba02c1b7"/>
+	<file filename="patch.3.00.325.sy" checksum="4d990f3ecdc059b14c138d316783daf9" launcher_checksum="6ed5901a3619aaf27083cffbba02c1b7"/>
+	<file filename="patch.3.00.326.sy" checksum="c143b5eb4ba17e85f4a18ddaa0d87c02" launcher_checksum="ef5dd77c9c54802829eb788b80ace2ac"/>
+	<file filename="patch.3.00.326.1.sy" checksum="6baaa1c6fe7424fae3fb619190fa5c71" launcher_checksum="ef5dd77c9c54802829eb788b80ace2ac"/>
+	<file filename="patch.3.00.326.2.sy" checksum="7079c42c134a07aa7344475bbe21ca65" launcher_checksum="24401f8f3b2043534e0f726f47e49c06"/>
+	<file filename="patch.3.00.326.3.sy" checksum="fbc69de88ff8e3d50c9d7c7af4b415f9" launcher_checksum="6ed5901a3619aaf27083cffbba02c1b7"/>
+	<file filename="patch.3.00.327.sy" checksum="d378f0dc3e3a9cec3012109a6a3abbf9" launcher_checksum="b81493495c92743e4d1b2c359c1fc8e7"/>
+	<file filename="patch.3.00.328.sy" checksum="3ff993126b1adc78f91f00ea7a424b7c" launcher_checksum="b81493495c92743e4d1b2c359c1fc8e7"/>
+	<file filename="patch.3.00.328.1.sy" checksum="7024e460452bc161ddb161ffd1e57a17" launcher_checksum="00dc05486ed67d010de72f2012653d66"/>
+	<file filename="patch.3.00.329.sy" checksum="1b2da536fc14e316acb44a889207d71b" launcher_checksum="00dc05486ed67d010de72f2012653d66"/>
+	<file filename="patch.3.00.330.sy" checksum="44893901b9bb7bfd945be58b292a2a87" launcher_checksum="00dc05486ed67d010de72f2012653d66"/>
+	<file filename="patch.3.00.331.sy" checksum="67abf60e25c8d2f599712f732e4b8ac2" launcher_checksum="00dc05486ed67d010de72f2012653d66"/>
+	<file filename="patch.3.00.332.sy" checksum="2245d5d0d763dfe14904be7f987034b8" launcher_checksum="00dc05486ed67d010de72f2012653d66"/>
+	<file filename="patch.3.00.333.sy" checksum="6975f555d70b98814ec1d033df144d84" launcher_checksum="00dc05486ed67d010de72f2012653d66"/>
+	<file filename="patch.3.00.334.sy" checksum="0952f37d49980c954f7ebc2cca317849" launcher_checksum="3ef346ce8164d9d2276223419a79f0a7"/>
+	<file filename="patch.3.00.334.1.sy" checksum="59b5a59ce59ff626fd5c3f41550de112" launcher_checksum="daca25f3d11cb43683597566f8be41ca"/>
+	<file filename="patch.3.00.335.sy" checksum="1b8cbba1ab5b99b6aff9a46205051727" launcher_checksum="daca25f3d11cb43683597566f8be41ca"/>
+	<file filename="patch.3.00.336.sy" checksum="9639fbdbac72d482b3bad909bf90fc0c" launcher_checksum="daca25f3d11cb43683597566f8be41ca"/>
+	<file filename="patch.3.00.337.sy" checksum="75cc30a8633b48ced60f321ed61e4db3" launcher_checksum="daca25f3d11cb43683597566f8be41ca"/>
+	<file filename="patch.3.00.337.1.sy" checksum="d79d463d24623bb6f8ca2806364821bd" launcher_checksum="daca25f3d11cb43683597566f8be41ca"/>
+	<file filename="patch.3.00.338.sy" checksum="c0cdbc9eef9dc0049e3ff6ba570aa8ae" launcher_checksum="daca25f3d11cb43683597566f8be41ca"/>
+	<file filename="patch.3.00.339.sy" checksum="6e70b1d97ab2c506b8057227e74bcef0" launcher_checksum="daca25f3d11cb43683597566f8be41ca"/>
+	<file filename="patch.3.00.340.sy" checksum="5b64e5583a8adea3b8b94e4a7f14b436" launcher_checksum="daca25f3d11cb43683597566f8be41ca"/>
+	<file filename="patch.3.00.341.sy" checksum="43efe6c1618390e72bfcdc8545c2d0e1" launcher_checksum="daca25f3d11cb43683597566f8be41ca"/>
+	<file filename="patch.3.00.341.1.sy" checksum="54a6745d475ba6dd7f46b0aa4026c58d" launcher_checksum="daca25f3d11cb43683597566f8be41ca"/>
+	<file filename="patch.3.00.341.2.sy" checksum="d47ac18246550d70652adfa544ed45ce" launcher_checksum="daca25f3d11cb43683597566f8be41ca"/>
+	<file filename="patch.3.00.342.sy" checksum="4e1a6aa1897fd1b843ad685bdabae30b" launcher_checksum="daca25f3d11cb43683597566f8be41ca"/>
+	<file filename="patch.3.00.342.1.sy" checksum="8d7e4c2f726683609c8d52caede17261" launcher_checksum="daca25f3d11cb43683597566f8be41ca"/>
+	<file filename="patch.3.00.343.sy" checksum="0b0fd6b7adcedb543fe2e98c4dba27a8" launcher_checksum="daca25f3d11cb43683597566f8be41ca"/>
+	<file filename="patch.3.00.343.1.sy" checksum="767b93d52912f570441331532e0b98de" launcher_checksum="b6b3fedbae6018141606f246e59b31f3"/>
+	<file filename="patch.3.00.344.sy" checksum="b41f118f90aa062f59fa9d7d3074607b" launcher_checksum="0b6ff3f05eb973d149b7580c9759e05a"/>
+	<file filename="patch.3.00.345.sy" checksum="9152b2250da91be8fa9ba7e9e205feeb" launcher_checksum="0b6ff3f05eb973d149b7580c9759e05a"/>
+	<file filename="patch.3.00.346.sy" checksum="ff6f0fa2703f42ff6d2614667235d648" launcher_checksum="0b6ff3f05eb973d149b7580c9759e05a"/>
+	<file filename="patch.3.00.347.sy" checksum="f39c49e3a75905be187b90e34b0bea01" launcher_checksum="0b6ff3f05eb973d149b7580c9759e05a"/>
+	<file filename="patch.3.00.348.sy" checksum="e1662d7d8821f47fac4c5fa6418c23b8" launcher_checksum="0b6ff3f05eb973d149b7580c9759e05a"/>
+	<file filename="patch.3.00.349.sy" checksum="f3a7f36d0d388a80e14e5dfe3df70fde" launcher_checksum="c9b382ccd4012cba2cbdfa89d29f2bcb"/>
+	<file filename="patch.3.00.350.sy" checksum="da902e74d50adae9141ea8753af7fac3" launcher_checksum="c9b382ccd4012cba2cbdfa89d29f2bcb"/>
+	<file filename="patch.3.00.351.sy" checksum="f2181c2becfe783855d7a1df04c597ed" launcher_checksum="c9b382ccd4012cba2cbdfa89d29f2bcb"/>
+	<file filename="patch.3.00.352.sy" checksum="379ead28e28633bfe9b007b3a49109c0" launcher_checksum="c9b382ccd4012cba2cbdfa89d29f2bcb"/>
+	<file filename="patch.3.00.353.sy" checksum="05b207547b43bec5527d55c994c77fb4" launcher_checksum="c9b382ccd4012cba2cbdfa89d29f2bcb"/>
+	<file filename="patch.3.00.354.sy" checksum="4671f856082769ff6270cf91501aef9f" launcher_checksum="c9b382ccd4012cba2cbdfa89d29f2bcb"/>
+	<file filename="patch.3.00.355.sy" checksum="1727406bd0bde8a8f44d2a0cb680469b" launcher_checksum="c9b382ccd4012cba2cbdfa89d29f2bcb"/>
+	<file filename="patch.3.00.356.sy" checksum="89953b6421ae6a3ee1553217d89cd949" launcher_checksum="0ac0db575594ede7db8efbed9254068b"/>
+	<file filename="patch.3.00.356.1.sy" checksum="d2bb292e23497e5dd2c6ac9aadcf6845" launcher_checksum="0ac0db575594ede7db8efbed9254068b"/>
+	<file filename="patch.3.00.357.sy" checksum="12f3a91fec64514f388674d7174a69d8" launcher_checksum="98d65e6ebf56b7511b03e57246c8d873"/>
+	<file filename="patch.3.00.358.sy" checksum="b29b71be32bae45ef8239efac4289962" launcher_checksum="98d65e6ebf56b7511b03e57246c8d873"/>
+	<file filename="patch.3.00.359.sy" checksum="62302f16133a4a16a58d10ce664bea89" launcher_checksum="98d65e6ebf56b7511b03e57246c8d873"/>
+	<file filename="patch.3.00.359.1.sy" checksum="2c6c4531e4a75d2ae8d4bf0fe2e193af" launcher_checksum="98d65e6ebf56b7511b03e57246c8d873"/>
+	<file filename="patch.3.00.360.sy" checksum="0f9f505b78836a18f8f0259614ab5b80" launcher_checksum="98d65e6ebf56b7511b03e57246c8d873"/>
+	<file filename="patch.3.00.361.sy" checksum="eccc19cf88853b3069d7be83307a39d6" launcher_checksum="98d65e6ebf56b7511b03e57246c8d873"/>
+	<file filename="patch.3.00.361.1.sy" checksum="d11e9e0e46a71c536787adaba971411f" launcher_checksum="98d65e6ebf56b7511b03e57246c8d873"/>
+	<file filename="patch.3.00.362.sy" checksum="3de6f6fb01585315902be31732e6ad6e" launcher_checksum="98d65e6ebf56b7511b03e57246c8d873"/>
+	<file filename="patch.3.00.362.1.sy" checksum="06b0923079aa4d3b343f3b06d13987be" launcher_checksum="e5f366169782dd873da4bec02e7a0dd0"/>
+	<file filename="patch.3.00.362.2.sy" checksum="7ce2f37c96a74c46ad946f58eea68152" launcher_checksum="d70367d5b78652c82fb2cce09f023f81"/>
+	<file filename="patch.3.00.363.sy" checksum="3124ac9eb7eaa5d7a202458072a6404f" launcher_checksum="e5f366169782dd873da4bec02e7a0dd0"/>
+	<file filename="patch.3.00.363.1.sy" checksum="9840b16337a180ab125bf092eee44433" launcher_checksum="d70367d5b78652c82fb2cce09f023f81"/>
+	<file filename="patch.3.00.364.sy" checksum="119b2e1f332a187af691142360a29aff" launcher_checksum="d70367d5b78652c82fb2cce09f023f81"/>
+	<file filename="patch.3.00.365.sy" checksum="0802aae3f221e8f2a50c6f80e4d5f559" launcher_checksum="e5f366169782dd873da4bec02e7a0dd0"/>
+	<file filename="patch.3.00.365.1.sy" checksum="36055d8c2be6edbb8c7432677ca6d1d4" launcher_checksum="e5f366169782dd873da4bec02e7a0dd0"/>
+	<file filename="patch.3.00.366.sy" checksum="801c3442388079282506ceec5278700f" launcher_checksum="e5f366169782dd873da4bec02e7a0dd0"/>
+	<file filename="patch.3.00.367.sy" checksum="8ab71db48e358700a4cc5dd921ed8fa3" launcher_checksum="e5f366169782dd873da4bec02e7a0dd0"/>
+	<file filename="patch.3.00.368.sy" checksum="bf2fe5e8acf9285129b04856d679b867" launcher_checksum="e5f366169782dd873da4bec02e7a0dd0"/>
+	<file filename="patch.3.00.369.sy" checksum="02f1e97cbddaafa9a6d47ab64a2bc505" launcher_checksum="e5f366169782dd873da4bec02e7a0dd0"/>
+	<file filename="patch.3.00.370.sy" checksum="353663d6881ccd0634550a1b8519508e" launcher_checksum="e5f366169782dd873da4bec02e7a0dd0"/>
+	<file filename="patch.3.00.371.sy" checksum="9ce24134489d966604168b1312dd1615" launcher_checksum="e5f366169782dd873da4bec02e7a0dd0"/>
+	<file filename="patch.3.00.372.sy" checksum="8ef6895d3f6d0e83f7f9d2a337cc963f" launcher_checksum="4da3d42f89802809cf8fd6db06b2b466"/>
+	<file filename="patch.3.00.373.sy" checksum="fc90fd6ccaacf585dd947ad6cd03c2ec" launcher_checksum="fa65b51eff20cbe3a52d2be171c6f316"/>
+	<file filename="patch.3.00.374.sy" checksum="67eab688347f701bf8939f913dbdda99" launcher_checksum="0248891023280aeccbd29e8797af7141"/>
+	<file filename="patch.3.00.374.1.sy" checksum="533387333517b5979876a5a02f980c6c" launcher_checksum="b1a502d2a8cc6b36112b16ec22846aaa"/>
+	<file filename="patch.3.00.375.sy" checksum="34bb8b8150386d87774b9f8748edbea1" launcher_checksum="b1a502d2a8cc6b36112b16ec22846aaa"/>
+	<file filename="patch.3.00.376.sy" checksum="7ae065a87ac711fab29ac177a3645051" launcher_checksum="e4c026c8b9550c3344df381f290ce71d"/>
+	<file filename="patch.3.00.377.sy" checksum="2b369b8e484ed2f3a8f08e6fe3f755d7" launcher_checksum="35aa2e419e61a3bc60f7cc9734730d1d"/>
+	<file filename="patch.3.00.378.sy" checksum="f4bf9a6880035b99973b3a91daf614ec" launcher_checksum="6659c22099be5cf18b04a9119a8bf02d"/>
+	<file filename="patch.3.00.377.1.sy" checksum="80ed7f34229affcba076d64493d0563d" launcher_checksum="e4c026c8b9550c3344df381f290ce71d"/>
+	<file filename="patch.3.00.379.sy" checksum="7011f5e178eb157764c84add99a130dd" launcher_checksum="6659c22099be5cf18b04a9119a8bf02d"/>
+	<file filename="patch.3.00.379.1.sy" checksum="8002e93ad765a017594367c3e9cb584d" launcher_checksum="6659c22099be5cf18b04a9119a8bf02d"/>
+	<file filename="patch.3.00.380.sy" checksum="cd0604182cb84a401840a2da30d6a814" launcher_checksum="6659c22099be5cf18b04a9119a8bf02d"/>
+	<file filename="patch.3.00.381.sy" checksum="a1354a8b6af959e54171fb6c1f5e287b" launcher_checksum="6659c22099be5cf18b04a9119a8bf02d"/>
+	<file filename="patch.3.00.382.sy" checksum="f7adfdd7b014b374d1c372c509acfa0f" launcher_checksum="6659c22099be5cf18b04a9119a8bf02d"/>	
+  <file filename="patch.3.00.383.sy" checksum="b395132800f84737c597b986b7d9d3d6" launcher_checksum="43930dfdd3141e0e11b379773b76428d"/>
+  <file filename="patch.3.00.384.sy" checksum="fd0eac3c22ae6c83dcc427740db8f6f4" launcher_checksum="43930dfdd3141e0e11b379773b76428d"/>
+  <file filename="patch.3.00.384.1.sy" checksum="2fb5eb609adb3df46fe5d69806564ea1" launcher_checksum="43930dfdd3141e0e11b379773b76428d"/>
+  <file filename="patch.3.00.385.sy" checksum="f444012d10cb26f2a55ee385b5de4321" launcher_checksum="43930dfdd3141e0e11b379773b76428d"/>
+  <file filename="patch.3.00.385.1.sy" checksum="22ad2569d7208f8140e3447a5c83122f" launcher_checksum="43930dfdd3141e0e11b379773b76428d"/>
+  <file filename="patch.3.00.385.2.sy" checksum="6f3a43cc26c2096f768301c875ddc3e5" launcher_checksum="43930dfdd3141e0e11b379773b76428d"/>
+  <file filename="patch.3.00.386.sy" checksum="d01d92d85c09950a1bfe95fca4955eb9" launcher_checksum="43930dfdd3141e0e11b379773b76428d"/>
+  <file filename="patch.3.00.387.sy" checksum="3833a1085434296792f9cfc69245bedd" launcher_checksum="43930dfdd3141e0e11b379773b76428d"/>
+  <file filename="patch.3.00.387.1.sy" checksum="3a35c920f7f30ebd88326f74ba01ed47" launcher_checksum="43930dfdd3141e0e11b379773b76428d"/>
+  <file filename="patch.3.00.387.2.sy" checksum="1a5b5c73bb2fb4ae6defb3dcac300f68" launcher_checksum="43930dfdd3141e0e11b379773b76428d"/>
+  <file filename="patch.3.00.388.sy" checksum="706cb79b811262472b1d6e814499bc98" launcher_checksum="43930dfdd3141e0e11b379773b76428d"/>
+<file filename="patch.3.00.389.sy" checksum="4406637b8665ea77ffd4730e375cd199" launcher_checksum="43930dfdd3141e0e11b379773b76428d"/>
+<file filename="patch.3.00.389.1.sy" checksum="2919453f324618e4270baead3c115045" launcher_checksum="43930dfdd3141e0e11b379773b76428d"/>
+<file filename="patch.3.00.389.2.sy" checksum="ccc24c176d35319e96518c85d45fe669" launcher_checksum="43930dfdd3141e0e11b379773b76428d"/>
+<file filename="patch.3.00.389.3.sy" checksum="67556aee4dffe64c6469752062e709e5" launcher_checksum="43930dfdd3141e0e11b379773b76428d"/>
+<file filename="patch.3.00.390.sy" checksum="6004ab146e7c0c2d2f8feadd0575dc00" launcher_checksum="43930dfdd3141e0e11b379773b76428d"/>
+<file filename="patch.3.00.390.1.sy" checksum="e9b25959cbb4fc2894ab555a62c3b0b9" launcher_checksum="43930dfdd3141e0e11b379773b76428d"/>
+<file filename="patch.3.00.391.sy" checksum="02aeb9b5f401d03e97c2bc085042ddb0" launcher_checksum="43930dfdd3141e0e11b379773b76428d"/>
+<file filename="patch.3.00.391.1.sy" checksum="ff093db2e6f0ea772a377acd4c6636e5" launcher_checksum="43930dfdd3141e0e11b379773b76428d"/>
+<file filename="patch.3.00.392.sy" checksum="6ff529c57bf3370ac0d87faa292232c5" launcher_checksum="43930dfdd3141e0e11b379773b76428d"/>
+<file filename="patch.3.00.393.sy" checksum="0df2e7ac5d8b0d733478d63e076709f0" launcher_checksum="43930dfdd3141e0e11b379773b76428d"/>
+<file filename="patch.3.00.394.sy" checksum="c47d269db08c152b1c4ee604d1d39c7f" launcher_checksum="43930dfdd3141e0e11b379773b76428d"/>
+<file filename="patch.3.00.394.1.sy" checksum="27b14fc9a359495c0e22e00184b80062" launcher_checksum="43930dfdd3141e0e11b379773b76428d"/>
+<file filename="patch.3.00.395.sy" checksum="c455ee8d3adcd66a3dff48b3ef8860a3" launcher_checksum="43930dfdd3141e0e11b379773b76428d"/>
+<file filename="patch.3.00.396.sy" checksum="782331cb90995f541d8462b5bf42e063" launcher_checksum="22f44e71d923451f74b2a6f4a44645f6"/>
+<file filename="patch.3.00.397.sy" checksum="077c95236d7381bf959dc978f9290f82" launcher_checksum="1fe37db682e28c170ab5918ad3788be7"/>
+<file filename="patch.3.00.397.1.sy" checksum="4caff727a70ed50ea840d9478f74f053" launcher_checksum="1fe37db682e28c170ab5918ad3788be7"/>
+<file filename="patch.3.00.398.sy" checksum="6f8d33c969a3a6c03f122cb11661c08f" launcher_checksum="5d1af06ac32ba5c5be9554231a8a870a"/>
+<file filename="patch.3.00.399.sy" checksum="8be1716672210e38312dee470b36eebc" launcher_checksum="5d1af06ac32ba5c5be9554231a8a870a"/>
+<file filename="patch.3.00.400.sy" checksum="dbcd82d58464d36fb7e8dcbff5727966" launcher_checksum="1fe37db682e28c170ab5918ad3788be7"/>
+<file filename="patch.3.00.400.1.sy" checksum="452a0d5338e765e2ff86e6c3a54d6e8d" launcher_checksum="1fe37db682e28c170ab5918ad3788be7"/>
+<file filename="patch.3.00.401.sy" checksum="cf1822cb994fd15da6a5b4b5c1cebb64" launcher_checksum="2e65baf3ecf68f649889cafbe0478fd8"/>
+<file filename="patch.3.00.402.sy" checksum="f4533a3bfb46e4649fc25f106953b9ec" launcher_checksum="91014354e830a617559ff168f9a05768"/>
+<file filename="patch.3.00.402.1.sy" checksum="ff323c096dae3f4a24fc134002888aff" launcher_checksum="91014354e830a617559ff168f9a05768"/>
+<file filename="patch.3.00.403.sy" checksum="521b370eb22d812babf05beab3e5fca9" launcher_checksum="91014354e830a617559ff168f9a05768"/>
+<file filename="patch.3.00.404.sy" checksum="68746d7aeff94e077ce310ad99f6175f" launcher_checksum="91014354e830a617559ff168f9a05768"/>
+<file filename="patch.3.00.405.sy" checksum="f604731dc2ea32548d83b9e13ced28bb" launcher_checksum="91014354e830a617559ff168f9a05768"/>
+<file filename="patch.3.00.406.sy" checksum="fd968369ee7f014410e3202ca1aa4163" launcher_checksum="91014354e830a617559ff168f9a05768"/>
+<file filename="patch.3.00.407.sy" checksum="e0c7ba4e7b4374c7b56b284db504a371" launcher_checksum="91014354e830a617559ff168f9a05768"/>
+<file filename="patch.3.00.408.sy" checksum="970b9355b24a6ba4fe16d4f7368c34dc" launcher_checksum="91014354e830a617559ff168f9a05768"/>
+<file filename="patch.3.00.409.sy" checksum="8ac1e71a85bf0f88c343a8dfec539985" launcher_checksum="91014354e830a617559ff168f9a05768"/>
+<file filename="patch.3.00.410.sy" checksum="74df9b0ed6aeb1510c477651c9929803" launcher_checksum="91014354e830a617559ff168f9a05768"/>
+<file filename="patch.3.00.411.sy" checksum="382b4c2f9e83c12fa66cd7a196890ca8" launcher_checksum="c0bf8f3ffb5aa1f1a54df69ba05846be"/>
+<file filename="patch.3.00.412.sy" checksum="1fd4b6a40bbcc54195c2fe47c48a3e90" launcher_checksum="c0bf8f3ffb5aa1f1a54df69ba05846be"/>
+<file filename="patch.3.00.413.sy" checksum="d4b2abf97b50de9400a95be3891eacf0" launcher_checksum="f155eb4bcf0d1ade253094287824b3be"/>
+<file filename="patch.3.00.413.1.sy" checksum="0503bc0ac387d5fc491d738ac9338ff2" launcher_checksum="f155eb4bcf0d1ade253094287824b3be"/>
+<file filename="patch.3.00.414.sy" checksum="f4c28cbb4a4b2a934bd5ef372d4ba795" launcher_checksum="fc4373168ab09b299f6cf20eaf7441d6"/>
+<file filename="patch.3.00.415.sy" checksum="ef9d0246db90ce65ac22ca96002c8d54" launcher_checksum="fc4373168ab09b299f6cf20eaf7441d6"/>
+<file filename="patch.3.00.416.sy" checksum="b4a0cc36b6a1ffd6bdfa02d23cace56a" launcher_checksum="fc4373168ab09b299f6cf20eaf7441d6"/>
+<file filename="patch.3.00.417.sy" checksum="481dbdcf4c7eaf75d216a4766acf4f6d" launcher_checksum="09383bbf3d53611c7e3c41af5707a6b0"/>
+<file filename="patch.3.00.418.sy" checksum="96b057f598e7c2d7a91b769ca1967528" launcher_checksum="09383bbf3d53611c7e3c41af5707a6b0"/>
+<file filename="patch.3.00.418.1.sy" checksum="ca58b239c954f375235fed264616d389" launcher_checksum="09383bbf3d53611c7e3c41af5707a6b0"/>
+<file filename="patch.3.00.419.sy" checksum="7b8f025321fe36c42f4f9908bc66ea4a" launcher_checksum="4d94d5266e8e0d88da927e4d0351132c"/>
+<file filename="patch.3.00.419.1.sy" checksum="468af1709daac048e78d92737efbb0d0" launcher_checksum="87ffac223c5bd99d5972c6d5b53f1848"/>
+<file filename="patch.3.00.419.2.sy" checksum="13706dbd936433a3edbcd767e587f3f4" launcher_checksum="87ffac223c5bd99d5972c6d5b53f1848"/>
+<file filename="patch.3.00.420.sy" checksum="b471fc544b7d6f9e2db56e197cab5a5a" launcher_checksum="9bb84a23d071a76c416fa522d2408bf8"/>
+<file filename="patch.3.00.420.1.sy" checksum="e415532f5c164254274ee47c14bdf378" launcher_checksum="9bb84a23d071a76c416fa522d2408bf8"/>
+<file filename="patch.3.00.421.sy" checksum="599fd21465f85852712a03623956eb1d" launcher_checksum="9bb84a23d071a76c416fa522d2408bf8"/>
+<file filename="patch.3.00.422.sy" checksum="fda8a95a0635b07aba648c51eb8c7748" launcher_checksum="9bb84a23d071a76c416fa522d2408bf8"/>
+<file filename="patch.3.00.422.1.sy" checksum="31124da71d7a9beab4f27e0dfe61285d" launcher_checksum="9bb84a23d071a76c416fa522d2408bf8"/>
+<file filename="patch.3.00.422.2.sy" checksum="a93e59315b758df75b5533d9a9722047" launcher_checksum="9bb84a23d071a76c416fa522d2408bf8"/>
+<file filename="patch.3.00.422.3.sy" checksum="caaaa307f9bade1eaede81c293373445" launcher_checksum="9bb84a23d071a76c416fa522d2408bf8"/>
+<file filename="patch.3.00.423.sy" checksum="696b17111538518ca0b63818daf6d6c0" launcher_checksum="9bb84a23d071a76c416fa522d2408bf8"/>
+<file filename="patch.3.00.424.sy" checksum="af59f4f75d00abcb90c43fd2e91ecc49" launcher_checksum="9bb84a23d071a76c416fa522d2408bf8"/>
+	<file filename="depatch.3.00.240.sy" checksum="d1e17aaf7cda284f8f0b8c58d73d7a06"/>
+	<file filename="depatch.3.00.241.sy" checksum="1cac559231045cf66c334982b79594f5"/>
+	<file filename="depatch.3.00.242.sy" checksum="a0b5bf2462d713842278f7e027c4f34f"/>
+	<file filename="depatch.3.00.243.sy" checksum="3d42e47a268e72d7f905e38266ea68df"/>
+	<file filename="depatch.3.00.244.sy" checksum="e9dc5d301449b5a59403634140c0a736"/>
+	<file filename="depatch.3.00.245.sy" checksum="dd4b1d45f9d808f18012ac8cf11f58b2"/>
+	<file filename="depatch.3.00.246.sy" checksum="23effa1d12126d8064432d7dd712d3c9"/>
+	<file filename="depatch.3.00.247.sy" checksum="93be1ad20766be3f8b93f194a35ad91e"/>
+	<file filename="depatch.3.00.248.sy" checksum="4ebbc806e7de6a8e6b9c6d1022dddd1b"/>
+	<file filename="depatch.3.00.249.sy" checksum="b00d5536dde30ace8943a032520063d9"/>
+	<file filename="depatch.3.00.250.sy" checksum="cf033cca3b289880f3c78e541fa0d425"/>
+	<file filename="depatch.3.00.251.sy" checksum="e11b4d6901e0cc79d4e05314dde41492"/>
+	<file filename="depatch.3.00.251.0.sy" checksum="4e8fca25e0a7a12b721e038d6c8e388f"/>
+	<file filename="depatch.3.00.252.sy" checksum="dd6648b83709243468ef8cd456a415d0"/>
+	<file filename="depatch.3.00.253.sy" checksum="9f3c778f2fb68ceff645060a13dc7cb7"/>
+	<file filename="depatch.3.00.254.sy" checksum="de5ff569981df94060cf17a3eff791e9"/>
+	<file filename="depatch.3.00.255.sy" checksum="1bb9ff73bf6b59d1ef087544b514673d"/>
+	<file filename="depatch.3.00.256.sy" checksum="bad5f7a152aa7ca384d2467924c60561"/>
+	<file filename="depatch.3.00.257.sy" checksum="760c3441a6939a5c1f3b99240ba0593c"/>
+	<file filename="depatch.3.00.258.sy" checksum="d4fe2bb714d1405335097496e7b719a0"/>
+	<file filename="depatch.3.00.259.sy" checksum="b34b5039661f7046cc0bd4c27c3e4410"/>
+	<file filename="depatch.3.00.260.sy" checksum="8f0bd68c55eb2abaeb00e429c7c1bf5b"/>
+	<file filename="depatch.3.00.261.sy" checksum="087cfeba763861766b1dc706b6f241b9"/>
+	<file filename="depatch.3.00.262.sy" checksum="b5a6a7796dc36ba60b510e7cac2270c2"/>
+	<file filename="depatch.3.00.263.sy" checksum="62f197667fa650c647e76e32d3252c52"/>
+	<file filename="depatch.3.00.264.sy" checksum="2a6d975b2bcf3e1ce3677fa5338ca211"/>
+	<file filename="depatch.3.00.265.sy" checksum="571ff75ef3982ed848f017cddd62fba2"/>
+	<file filename="depatch.3.00.266-3.00.256.sy" checksum="28640d9c49038fe411119527ae5034ea"/>
+	<file filename="depatch.3.00.266.sy" checksum="34643cb9f2c1729d70dc89481402bdfe"/>
+	<file filename="depatch.3.00.267.sy" checksum="9b03a110fab6157bd005c99d373cd738"/>
+	<file filename="depatch.3.00.268.sy" checksum="1a4b10809da0b2004521838826b8fcbf"/>
+	<file filename="depatch.3.00.269.sy" checksum="245c2c309ee8182ce0f2b7188835efda"/>
+	<file filename="depatch.3.00.270.sy" checksum="34ca57c33699f6801eec303080a749fa"/>
+	<file filename="depatch.3.00.271.sy" checksum="5bbbdfb63361169a6af142d5e5460fca"/>
+	<file filename="depatch.3.00.272.sy" checksum="9d5b3ad3fa50789b2abb81426925bae6"/>
+	<file filename="depatch.3.00.273.sy" checksum="33045b669d6fdac003330b454835614a"/>
+	<file filename="depatch.3.00.274.sy" checksum="5415eb8cc503a9af6ecee242929bfa54"/>
+	<file filename="depatch.3.00.275-3.00.266.sy" checksum="ad0a4e99f556cddd89730538a67e4b09"/>
+	<file filename="depatch.3.00.276.sy" checksum="52ba9e66730ee238419ec411e0b1eb74"/>
+	<file filename="depatch.3.00.277.sy" checksum="a55c00e5582bb5af03a1c44e089dbfbd"/>
+	<file filename="depatch.3.00.278.sy" checksum="ff231016a925777432462f1b7263dd19"/>
+	<file filename="depatch.3.00.279.sy" checksum="38cef22ae7052bcbac06ed9e1ba32b14"/>
+	<file filename="depatch.3.00.280.sy" checksum="1f50dbf492dd39ff842149d279570d7a"/>
+	<file filename="depatch.3.00.281.sy" checksum="fc2619cac27deab70386f5aba0efb8e9"/>
+	<file filename="depatch.3.00.282.sy" checksum="aa1bfd439d5283dac6d3fce01693eb81"/>
+	<file filename="depatch.3.00.283.sy" checksum="d97e7487da7c07fd2cbee01699c46515"/>
+	<file filename="depatch.3.00.284.sy" checksum="77819a494fd541123276ce60ac36302a"/>
+	<file filename="depatch.3.00.285.sy" checksum="481cdf71ca55e2ea2127710cb1b489a0"/>
+	<file filename="depatch.3.00.286.sy" checksum="a0a57966c9e1ff8045f19f9f525220ee"/>
+	<file filename="depatch.3.00.287.sy" checksum="1b1846331c07101cdb487d87c602b35c"/>
+	<file filename="depatch.3.00.288.sy" checksum="2027aa492e16838e9dd1356b6669b41b"/>
+	<file filename="depatch.3.00.289-3.00.275.sy" checksum="cac636a9ad530a28df44cb89c598e1ae"/>
+	<file filename="depatch.3.00.289.sy" checksum="5696178c6f738b243c2904f2e04e490d"/>
+	<file filename="depatch.3.00.290.sy" checksum="f2265ccc123373f71a2f927a4ea5223f"/>
+	<file filename="depatch.3.00.291.sy" checksum="1011550d841fb122ea1a0b74e3b3f9be"/>
+	<file filename="depatch.3.00.292.sy" checksum="098436243819b9d5f1cc0a1f45f1f533"/>
+	<file filename="depatch.3.00.293.sy" checksum="c174f46f02346e4e7622051653928c63"/>
+	<file filename="depatch.3.00.294.0.sy" checksum="b4f062682bfe873cb8c3cbbf65fd2440"/>
+	<file filename="depatch.3.00.294.sy" checksum="312bef315e0bc917659f2a04e0e6f6ea"/>
+	<file filename="depatch.3.00.295.sy" checksum="85e526d8219cc652735a2fc122e7cbc6"/>	
+	<file filename="depatch.3.00.296.sy" checksum="5930e0b0b8f61a3a28548a50dafaa6c4"/>
+  <file filename="depatch.3.00.297.sy" checksum="e31cc532b9334cc02118f019a9faa433"/>
+  <file filename="depatch.3.00.298.sy" checksum="19b97431e0b64a0ac3b0e92f7ccc2651"/>
+  <file filename="depatch.3.00.299.sy" checksum="a145600c6178aec576be6a649179cc58"/>
+  <file filename="depatch.3.00.300.sy" checksum="8fd192b57ca93d13a58f0d22a2250906"/>
+  <file filename="depatch.3.00.301.sy" checksum="d589ae0d09a5276e45a0330350e8d406"/>
+  <file filename="depatch.3.00.302.sy" checksum="f63c616e225023d244187f229b72f67b"/>
+  <file filename="depatch.3.00.303.sy" checksum="8d0904fb41c99a98d5f1924a5edf144c"/>
+  <file filename="depatch.3.00.304.sy" checksum="edbc8912c4448ae45383c85ff2901162"/>
+  <file filename="depatch.3.00.305.sy" checksum="9e1621863ace93c106e78a7513e73488"/>
+  <file filename="depatch.3.00.306.sy" checksum="ecda3d88869d3c32b2076dfddc6fc54b"/>
+	<file filename="depatch.3.00.307.sy" checksum="aeb8912f07a96be996e73690c35802a5"/>
+	<file filename="depatch.3.00.308.sy" checksum="955faf6ed877e0a28be0fe1bbb201786"/>
+	<file filename="depatch.3.00.309.sy" checksum="724bc8965a24f2c93643fab095a1df4d"/>
+	<file filename="depatch.3.00.310.sy" checksum="114061320dd94581a72aa53966e1d1b7"/>
+	<file filename="depatch.3.00.311.sy" checksum="d25ceda4311095fecc4555f80703a26a"/>
+	<file filename="depatch.3.00.312.sy" checksum="e069adb971430b5bd0a1d4113c250ce0"/>
+  <file filename="depatch.3.00.313.sy" checksum="c9fbc55b2ef0e3c3e917e82ae768ceb5"/>
+  <file filename="depatch.3.00.314.sy" checksum="fd4b0ffc51b0e8b88cfd2df441e8ec7b"/>
+  <file filename="depatch.3.00.315.sy" checksum="a7b6bb547fbbdf2711d7a9ab8199bf08"/>
+  <file filename="depatch.3.00.316.sy" checksum="90059e7b83e203d42282a0fceca28ce1"/> 
+  <file filename="depatch.3.00.317.sy" checksum="d9236e9105346ef5a92eb253bed5a117"/>
+  <file filename="depatch.3.00.318.0.sy" checksum="a5ca8c93d5d7605568d8c8c49cf1046f"/>
+  <file filename="depatch.3.00.318.sy" checksum="e35570f876d916f9fa53182d8d8da647"/>
+  <file filename="depatch.3.00.319.sy" checksum="4003cb3b3099323a13a50d21cacb3a9a"/>
+  <file filename="depatch.3.00.320.sy" checksum="c617ff76450e0ace95dce553436e3281"/>
+  <file filename="depatch.3.00.321.sy" checksum="860c6a6c2c59bff3ebea8e90c3ca29aa"/>
+  <file filename="depatch.3.00.322.sy" checksum="e62980cc594e8f276ae9affb7bff3741"/>
+  <file filename="depatch.3.00.323.sy" checksum="3377aa4c9a4d9178f9df7d49c46463cf"/>
+  <file filename="depatch.3.00.324.0.sy" checksum="e350e3061a7643edc463719986762def"/>
+  <file filename="depatch.3.00.324.sy" checksum="6277ad637fe87d4bceaa9d9d4c163497"/>
+  <file filename="depatch.3.00.325.sy" checksum="1433bc1244920b666d0678dd3b9195c9"/>
+  <file filename="depatch.3.00.326.0.sy" checksum="0312bc6572d68306c0f9bc7b91bc30e5"/>
+  <file filename="depatch.3.00.326.sy" checksum="3f339521b4b9c6eaed8184e4590840ee"/>
+  <file filename="depatch.3.00.327.sy" checksum="2eaed69172aa0f977b4dbc7816e035f6"/>
+  <file filename="depatch.3.00.328.0.sy" checksum="ba9b941e9ed2437430741cad3042587b"/>
+  <file filename="depatch.3.00.328.sy" checksum="c69768938f4df3c398449d10dd9fbb9e"/>
+  <file filename="depatch.3.00.329.sy" checksum="998da6ab706ebb6a8c5a8bc3c4eb2b53"/>
+  <file filename="depatch.3.00.330.sy" checksum="c5800b0356bca5856a3c724811b1e908"/>
+  <file filename="depatch.3.00.331.sy" checksum="9b825619ebf2060f9a608c4300136e70"/>
+  <file filename="depatch.3.00.332.sy" checksum="8fe8db37165e8d3508919b43f65f77fa"/>
+  <file filename="depatch.3.00.333.sy" checksum="579c41e9b6b0f399a7960d8a576ffd66"/>
+  <file filename="depatch.3.00.334.0.sy" checksum="c12c77a7fad3ebfa3e6570a093994348"/>
+  <file filename="depatch.3.00.334.sy" checksum="edb2b4152e3c9d5232e51950b4428219"/>
+  <file filename="depatch.3.00.335.sy" checksum="1aa1d48c572ee75a96deac77fba4829a"/>
+  <file filename="depatch.3.00.336.sy" checksum="cffc6cf58faa7e45317e27eebcb3b324"/>
+  <file filename="depatch.3.00.337.0.sy" checksum="71a467ce0ea8eb92aa01e02e7902b6ad"/>
+  <file filename="depatch.3.00.337.sy" checksum="5d6dc9a90721348d68e03a87193b44f6"/>
+  <file filename="depatch.3.00.338.sy" checksum="4b2d150c73012fe13c305a98d1d696ce"/>
+  <file filename="depatch.3.00.339.sy" checksum="0b67c381e23770d66541b4f65ee63175"/>
+  <file filename="depatch.3.00.340.sy" checksum="f6bbcf36f4f73e3346b2faa63f43ab38"/>
+  <file filename="depatch.3.00.341.0.sy" checksum="1325f34a7b049e2774f7d1629446125c"/>
+  <file filename="depatch.3.00.341.sy" checksum="b19bb70278c2c511f2bfff7748305fe5"/>
+  <file filename="depatch.3.00.342.0.sy" checksum="67bb709942c4cfe533d24a6cc0985e30"/>
+  <file filename="depatch.3.00.342.sy" checksum="6b7d59e12b1dee89d19060a19c6c5cff"/>
+  <file filename="depatch.3.00.343.0.sy" checksum="aba55a45d61c1382830615afa5df673b"/>
+  <file filename="depatch.3.00.343.sy" checksum="92e185f1c21463713e2413edbbc61739"/>
+  <file filename="depatch.3.00.344.sy" checksum="1d4dbfd1aa081a7593bdae6d381a7b78"/>
+  <file filename="depatch.3.00.345.sy" checksum="15ac8f2e46ee6f0994ea292b8f8060ee"/>
+  <file filename="depatch.3.00.346.sy" checksum="c18125799170ac9c47dffb530e77eda0"/>
+  <file filename="depatch.3.00.347.sy" checksum="2db4b5e951f47f2ed3ee3ef82d31922c"/>
+  <file filename="depatch.3.00.348.sy" checksum="3a2ae1757d33b6bd6d3c05acdec5e34e"/>
+  <file filename="depatch.3.00.349.sy" checksum="9b82e5430da8f6032c751a721a911b6c"/>
+  <file filename="depatch.3.00.350.sy" checksum="517c3f23cde9a3ce07c772d3b0110a63"/>
+  <file filename="depatch.3.00.351.sy" checksum="40814153eed6ab4fe1d2934cc2736a12"/>
+  <file filename="depatch.3.00.352.sy" checksum="914dd9140f3a6e53d59167c517ace0e8"/>
+  <file filename="depatch.3.00.353.sy" checksum="8a0a009206db5fd05e94a4a6f38ecd12"/>
+  <file filename="depatch.3.00.354.sy" checksum="fd71e27f85bc4699bd09375ce4f82e1b"/>
+  <file filename="depatch.3.00.355.sy" checksum="370503ddb746d8f67a08fe68c8bbb34e"/>
+  <file filename="depatch.3.00.356.0.sy" checksum="b89903491e6fb94d3934377bfe495136"/>
+  <file filename="depatch.3.00.356.sy" checksum="703d918b5a59ce1afb6762eb2774c4f8"/>
+  <file filename="depatch.3.00.357.sy" checksum="2f626a44390f599d6e210536dfe1367c"/>
+  <file filename="depatch.3.00.358.sy" checksum="d3821d700d4880139a2c3e578a2877cb"/>
+  <file filename="depatch.3.00.359.0.sy" checksum="b7117e886e0706e29a88a48de955f50c"/>
+  <file filename="depatch.3.00.359.sy" checksum="40bcbc27068511f0630e13d63ad23a46"/>
+  <file filename="depatch.3.00.360.sy" checksum="3cdb8c2a27f23de73d1d1895964bdb37"/>
+  <file filename="depatch.3.00.361.0.sy" checksum="341e609ccaa6c515750576e300fb0df6"/>
+  <file filename="depatch.3.00.361.sy" checksum="61a350bf53efa91d77bcbdc472b698eb"/>
+  <file filename="depatch.3.00.362.0.sy" checksum="aa1f32373cd04976487af837abb59d17"/>
+  <file filename="depatch.3.00.362.sy" checksum="7e0709ac2fe4ed3045aa58bb8f47cad2"/>
+  <file filename="depatch.3.00.363.0.sy" checksum="00eb5cfbb7ca4147b714737484506b4a"/>
+  <file filename="depatch.3.00.363.sy" checksum="7a216ceeccb75faf77658b943f67c720"/>
+  <file filename="depatch.3.00.364.sy" checksum="a757f7352946b847c48d10f50966599d"/>
+  <file filename="depatch.3.00.365.0.sy" checksum="69e5170a49cf2c2f5168603d93bc3ca5"/>
+  <file filename="depatch.3.00.365.sy" checksum="0e707d8dd21bc7aa42132faedb72c488"/>
+  <file filename="depatch.3.00.366.sy" checksum="89479821ec60685991a12175d39c06e8"/>
+  <file filename="depatch.3.00.367.sy" checksum="e223ce6539bf32aea176d599c576bca5"/>
+  <file filename="depatch.3.00.368.sy" checksum="041cb3dc618f3ca9b580a623c70f0ea5"/>
+  <file filename="depatch.3.00.369.sy" checksum="e303f237e3a74c9a1ab7182434df99c8"/>
+  <file filename="depatch.3.00.370.sy" checksum="3b4f7d5f4e4429b5b33e0310bf48e8d4"/>
+  <file filename="depatch.3.00.371.sy" checksum="c7839e7c5f1e83ef3ea547608e6de517"/>
+  <file filename="depatch.3.00.372.sy" checksum="11f76a31373fb603606e93a9ea903666"/>
+  <file filename="depatch.3.00.373.sy" checksum="e30bc2b359b041400a2bf31ed12f205b"/>
+  <file filename="depatch.3.00.374.0.sy" checksum="c30d59fcec5355e4b883628fb04fb054"/>
+  <file filename="depatch.3.00.374.sy" checksum="2d7a1edc2bfe3aaa693db374a8d5a638"/>
+  <file filename="depatch.3.00.375.sy" checksum="e898c33ee503a8c855d7432871d9bb88"/>
+  <file filename="depatch.3.00.376.sy" checksum="f1de5b8bc0a4350c3f5daf7ad4a2a65c"/>
+  <file filename="depatch.3.00.377.sy" checksum="09ae2db2fa9ca85dc999732f666c075a"/>
+  <file filename="depatch.3.00.377.0.sy" checksum="baf032f9f624974094245511b617d810"/>
+  <file filename="depatch.3.00.378.sy" checksum="862b88e056da630cb63ef6d59e4433c2"/>
+  <file filename="depatch.3.00.379.0.sy" checksum="dac0d8d8f91094c9c0742fd58fe1455f"/>
+  <file filename="depatch.3.00.379.sy" checksum="6d5837bd2c6a41fa228916c0f857fd59"/>
+  <file filename="depatch.3.00.380.sy" checksum="f5bc66f55f028eeef3f8fa99d970f26f"/>
+  <file filename="depatch.3.00.381.sy" checksum="4d84ff2db2e872cb032307e0540c1519"/>
+  <file filename="depatch.3.00.382.sy" checksum="521bfcbeef8b30acbfbab2c231d964be"/>
+  <file filename="depatch.3.00.383.sy" checksum="8522fb1d822b60d019cb7b48136b16aa"/>
+  <file filename="depatch.3.00.384.0.sy" checksum="c092e0e787a7256d13e95cc450aef5d9"/>
+  <file filename="depatch.3.00.384.sy" checksum="9fb652d7c3266c6e3524dd19c9ffac41"/>
+  <file filename="depatch.3.00.385.0.sy" checksum="5236b334fc427d2fa98659631209b7a4"/>
+  <file filename="depatch.3.00.385.sy" checksum="21ae7230b41bb204d7c26bfc319d722c"/>
+  <file filename="depatch.3.00.386.sy" checksum="3aa540edf8d16aff1001272c01ec8c24"/>
+  <file filename="depatch.3.00.387.0.sy" checksum="06966e4e7a30da2d3fc4fb99ee8b9330"/>
+  <file filename="depatch.3.00.387.sy" checksum="571be0d8d37a099afb71659ad3c092b1"/>
+<file filename="depatch.3.00.388.sy" checksum="5b0cc38718700a4639a149beee44135d"/>
+<file filename="depatch.3.00.389.0.sy" checksum="b64868b3cce3b98c91d74cc2f322adab"/>
+<file filename="depatch.3.00.389.sy" checksum="432b7ba542cd30026bb3bed7127c6bc3"/>
+<file filename="depatch.3.00.390.0.sy" checksum="339d6b0df0138307f8061e0f40ade7fd"/>
+<file filename="depatch.3.00.390.sy" checksum="1ed42fffeb22941dae5ffa98785bda3d"/>
+<file filename="depatch.3.00.391.0.sy" checksum="5c58c9ba6852a538468237447fd4cf76"/>
+<file filename="depatch.3.00.391.sy" checksum="5c3649c8b9c25ff3e9ff3408f29d5933"/>
+<file filename="depatch.3.00.392.sy" checksum="aca8004340d894ed87f386229589f0b1"/>
+<file filename="depatch.3.00.393.sy" checksum="bbe8fb2ffe22c7798b40474edc47ddce"/>
+<file filename="depatch.3.00.394.0.sy" checksum="667cd482c4f96ab404e4b29b32ab640c"/>
+<file filename="depatch.3.00.394.sy" checksum="eeaefe58fc926e9d65ba8403c3a19fb8"/>
+<file filename="depatch.3.00.395.sy" checksum="174c22c18a6c08fbfca199c001e736a4"/>
+<file filename="depatch.3.00.396.sy" checksum="b7576450c56fb43b4bdefaf7661943ca"/>
+<file filename="depatch.3.00.397.0.sy" checksum="b464d1de9899b6add12120decc2af7c4"/>
+<file filename="depatch.3.00.397.sy" checksum="b2fe67fab47163e28b815b6261cbb6db"/>
+<file filename="depatch.3.00.398.sy" checksum="1b11d32cc1a0fb685627e22540056510"/>
+<file filename="depatch.3.00.399.sy" checksum="8fb45595af62dd0aa6d3ca65e957e0d5"/>
+<file filename="depatch.3.00.400.0.sy" checksum="eacf8acf838c668cce6c9e656a9bbe3e"/>
+<file filename="depatch.3.00.400.sy" checksum="a6c48b788aed033783286a52a49a183b"/>
+<file filename="depatch.3.00.401.sy" checksum="55d2bbaba634c0ec724fb52208007d65"/>
+<file filename="depatch.3.00.402.0.sy" checksum="61d8a6c347ab26a531399d6d106a8ed7"/>
+<file filename="depatch.3.00.402.sy" checksum="c37b23f98a39a7616546abe6c7092cbe"/>
+<file filename="depatch.3.00.403.sy" checksum="b95a544c9c68ae23c01eab820ff8b29f"/>
+<file filename="depatch.3.00.404.sy" checksum="395e5626d8b3added0518f28142eaa71"/>
+<file filename="depatch.3.00.405.sy" checksum="c27a62dc2e1c2cf1a654f7fb5358e766"/>
+<file filename="depatch.3.00.406.sy" checksum="692ce0808aa5678b307bc40465066eda"/>
+<file filename="depatch.3.00.407.sy" checksum="e7a29d401cac9ee50ece40e3780ebe85"/>
+<file filename="depatch.3.00.408.sy" checksum="f7a219c44ee34dffc301f09f0eb13bf2"/>
+<file filename="depatch.3.00.409.sy" checksum="a060e0cdd253e83b064cfd68b996395c"/>
+<file filename="depatch.3.00.410.sy" checksum="fdd8c6221a029f36fb2bf2371a4ed5a8"/>
+<file filename="depatch.3.00.411.sy" checksum="cccaab4fd53c865172a1104ec0bb829e"/>
+<file filename="depatch.3.00.412.sy" checksum="f60f75ff415756735e634356fc89e99e"/>
+<file filename="depatch.3.00.413.0.sy" checksum="60fb48f1268983b2da6569a578597e9b"/>
+<file filename="depatch.3.00.413.sy" checksum="d7d11068656027ffaa5a69fd6c299c82"/>
+<file filename="depatch.3.00.414.sy" checksum="c48f139ac62a7f4f1e96842cee45b488"/>
+<file filename="depatch.3.00.415.sy" checksum="0836dd3d6f3adb62c5b47e20e9edd5ea"/>
+<file filename="depatch.3.00.416.sy" checksum="79437bcca10dfcc09afbea7a0a3bef5c"/>
+<file filename="depatch.3.00.417.sy" checksum="15a720b69c5ba74c67c3aeac18cd0c23"/>
+<file filename="depatch.3.00.418.0.sy" checksum="6f6dd97334ef98549df3999ff8749e7a"/>
+<file filename="depatch.3.00.418.sy" checksum="1af580abf3dac691ada13ce3418f29bb"/>
+<file filename="depatch.3.00.419.0.sy" checksum="a4e2e583e49979e50d6fccb62ba38ac7"/>
+<file filename="depatch.3.00.419.sy" checksum="35c006072e9d244db0fc6a12b22dbd10"/>
+<file filename="depatch.3.00.420.0.sy" checksum="33d24c28a6120b9b441a7cc50fedd385"/>
+<file filename="depatch.3.00.420.sy" checksum="2a669493cbcd0281a37ac4e935118e1d"/>
+<file filename="depatch.3.00.421.sy" checksum="8ba74f4b377983ba90e59b7d9a3fda9f"/>
+<file filename="depatch.3.00.422.0.sy" checksum="63f8a60d8188fb92adc6e1b4a9386268"/>
+<file filename="depatch.3.00.422.0.sy" checksum="63f8a60d8188fb92adc6e1b4a9386268"/>
+<file filename="depatch.3.00.422.0.sy" checksum="63f8a60d8188fb92adc6e1b4a9386268"/>
+<file filename="depatch.3.00.422.sy" checksum="f62fc050c27bae52f971bdb3223f196a"/>
+<file filename="depatch.3.00.423.sy" checksum="40cf82ab47d334abf5fe722e26fbf2db"/>
+</patch>
+</root>

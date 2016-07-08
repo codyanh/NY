@@ -1,0 +1,19 @@
+#!/usr/bin/expect -f
+set timeout -1
+
+set path_file      [lindex $argv 0]
+set ip_upload      [lindex $argv 1]
+set path_upload    [lindex $argv 2]
+set number_j       [lindex $argv 3]
+
+spawn scp -r $path_file omadmin@$ip_upload:$path_upload
+expect {
+	"yes/no" { send "yes\r"; exp_continue}
+	"*password:" { send "shangyoo!@#$\r" }
+}
+expect -re "100%"
+send_user "$number_j OK $expect_out(0,string)"
+
+expect "*$"
+send "\nexit\n";
+expect eof

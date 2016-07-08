@@ -1,0 +1,56 @@
+#area,gamegroup,grouptype,gsbits,bcsbits,otherbits,subnet,is_open,is_merge_group,is_merge_cab,is_new,is_kuafu,chinesename
+#grouptype := [1,2,3,4,5]
+#gsbits    := gs11  .. gs1  (1: on 0: off)
+#bcsbits   := bcs11 .. bcs1 (1: on 0: off)
+#otherbits := scs apex blob dbi dbm dbs ccs ls (1: on 0: off)
+
+##########
+# 电信区
+##########
+###############################分割线############################
+HNDX13,WangZheJueQi,11,FFF,FFF,FF,133,1,0,0,0,0,王者崛起
+HNDX14,HNBC,31,FFF,FFF,FF,134,1,0,0,0,0,海纳百川
+HNDX15,ShuGuang,31,FFF,FFF,FF,135,1,0,0,0,0,曙光
+HNDX15,RongYaoShengDian,32,FFF,FFF,FF,135,1,0,0,0,0,荣耀圣殿
+###############################分割线############################
+##########
+# 网通一区
+##########
+###############################分割线############################
+
+###############################分割线############################
+##########
+## 跨服战场
+###########
+###############################分割线############################
+BJBGP24,KuaFuZhanChang,123,7FF,7FF,FF,224,1,0,0,0,1,跨服战场
+###############################分割线############################
+##########
+### 双线
+############
+###############################分割线############################
+
+SX04,HYXG,211,FFF,FFF,FF,40,1,0,0,0,0,皓月峡谷
+
+BJBGP20,QingYi,11,FFF,FFF,FF,220,1,0,0,0,0,情义
+BJBGP22,JiZhan,31,FFF,FFF,FF,222,1,0,0,0,0,激战
+BJBGP22,FengBaoCheng,32,FFF,FFF,FF,222,1,0,0,0,0,风暴城
+#BJBGP24,DingFeng,11,FFF,FFF,FF,224,1,0,0,0,0,鼎峰
+BJBGP25,KaiXuan,41,FFF,FFF,FF,225,1,0,0,0,0,凯旋
+BJBGP25,XingJiZhiMen,42,FFF,FFF,FF,225,1,0,0,0,0,星际之门
+BJBGP27,ZongHeng,1314,3FFF,3FFF,FF,227,1,0,0,1,0,纵横
+BJBGP28,ShenJi,31,FFF,FFF,FF,228,1,0,0,0,0,神迹
+BJBGP28,ShuiYuZhengFeng,32,FFF,FFF,FF,228,1,0,0,0,0,谁与争锋
+BJBGP29,ShouHu,31,FFF,FFF,FF,229,1,0,0,0,0,守护
+BJBGP29,HaiShiShanMeng,32,FFF,FFF,FF,229,1,0,0,0,0,海誓山盟
+BJBGP30,XingZhanFengYun,32,FFF,FFF,FF,230,1,0,0,0,0,星战风云
+BJBGP31,YinHeDiGuo,31,FFF,FFF,FF,231,1,0,0,0,0,银河帝国
+BJBGP31,YingXiongShenDian,32,FFF,FFF,FF,231,1,0,0,0,0,英雄神殿
+BJBGP40,HuanJing,31,FFF,FFF,FF,240,1,0,0,0,0,幻境
+###############################分割线############################
+####
+#####
+#
+#
+#
+#

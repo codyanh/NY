@@ -1,0 +1,590 @@
+<template31>
+    tip    =    1st group in merged cab
+	<PHY_SERVER>
+			ALL_server	=GS01 GS02 GS03 GS04 GS05 GSBAK GDB LDB LS DBM
+	</PHY_SERVER>
+    <gserver>
+        <GS01>
+            IP     =1
+            <moddir>
+                1    =    /home/FS_server/
+                2    =    /home/FS_server/
+            </moddir>
+        </GS01>
+        <GS02>
+            IP     =2
+            <moddir>
+                3    =    /home/FS_server/
+                4    =    /home/FS_server/
+            </moddir>
+        </GS02>
+        <GS03>
+            IP     =3
+            <moddir>
+                5    =    /home/FS_server/
+                6    =    /home/FS_server/
+            </moddir>
+        </GS03>
+        <GS04>
+            IP     =4
+            <moddir>
+                7    =    /home/FS_server/
+                8    =    /home/FS_server/
+            </moddir>
+        </GS04>
+        <GS05>
+            IP     =5
+            <moddir>
+                9    =    /home/FS_server/
+                10    =    /home/FS_server/
+            </moddir>
+        </GS05>
+        <GSBAK>
+            IP     =6
+            <moddir>
+                11    =    /home/FS_server/
+                12    =    /home/FS_server/
+            </moddir>
+        </GSBAK>
+        <GDB>
+            IP     =7
+            <moddir>
+                BlobUpdate = /home/FS_server/
+                CCS = /home/FS_server/
+                DBS = /home/FS_server/
+                DBI = /home/FS_server/
+                SCS = /home/FS_server/
+                lua = /home/FS_server/
+				svr = /home/svr/
+            </moddir>
+        </GDB>
+        <LDB>
+            IP     =8
+            <moddir>
+            </moddir>
+        </LDB>
+        <LS>
+            IP     =11
+            <moddir>
+                LS  = /home/FS_server/
+                lua = /home/FS_server/
+            </moddir>
+        </LS>
+        <DBM>
+            IP     =12
+            <moddir>
+                DBM = /home/FS_server/
+                lua = /home/FS_server/
+                12    =    /home/FS_server/
+            </moddir>
+        </DBM>
+		<MTA>
+				path =/home/MT_agent/
+		</MTA>
+    </gserver>
+    <gmod>
+        <GS1>
+            IP =1
+            port =9920
+            path =/home/FS_server/GS1/
+            log =gs.log
+            rscript =./run_newgs.sh
+             taskset =
+            <keyword>
+                start =GS STARTUP COMPLETED
+                stop =GS1 STOP COMPLETED
+            </keyword>
+            can_telnet =1
+            can_ssh =1
+            procname =GS1
+        </GS1>
+        <GS2>
+            IP =1
+            port =9921
+            path =/home/FS_server/GS2/
+            log =gs.log
+            rscript =./run_newgs.sh
+             taskset =
+            <keyword>
+                start =GS STARTUP COMPLETED
+                stop =GS2 STOP COMPLETED
+            </keyword>
+            can_telnet =1
+            can_ssh =1
+            procname =GS2
+        </GS2>
+        <GS3>
+            IP =2
+            port =9922
+			path =/home/FS_server/GS3/
+            log=gs.log
+            rscript =./run_newgs.sh
+             taskset =
+            <keyword>
+                start =GS STARTUP COMPLETED
+                stop =GS3 STOP COMPLETED
+            </keyword>
+            can_telnet =1
+            can_ssh =1
+            procname =GS3
+        </GS3>
+        <GS4>
+            IP =2
+            port =9923
+            path =/home/FS_server/GS4/
+            log =gs.log
+            rscript =./run_newgs.sh
+             taskset =
+            <keyword>
+                start =GS STARTUP COMPLETED
+                stop =GS4 STOP COMPLETED
+            </keyword>
+            can_telnet =1
+            can_ssh =1
+            procname =GS4
+        </GS4>
+        <GS5>
+            IP =3
+            port =9924
+            path=/home/FS_server/GS5/
+            log = gs.log
+            rscript = ./run_newgs.sh
+             taskset =
+            <keyword>
+                start = GS STARTUP COMPLETED
+                stop = GS5 STOP COMPLETED
+            </keyword>
+            can_telnet=1
+            can_ssh=1
+            procname=GS5
+        </GS5>
+        <GS6>
+            IP =3
+            port =9925
+            path=/home/FS_server/GS6/
+            log = gs.log
+            rscript = ./run_newgs.sh
+             taskset =
+            <keyword>
+                start = GS STARTUP COMPLETED
+                stop = GS6 STOP COMPLETED
+            </keyword>
+            can_telnet=1
+            can_ssh=1
+            procname=GS6
+        </GS6>
+        <GS7>
+            IP =4
+            port =9926
+            path=/home/FS_server/GS7/
+            log = gs.log
+            rscript = ./run_newgs.sh
+             taskset =
+            <keyword>
+                start = GS STARTUP COMPLETED
+                stop = GS7 STOP COMPLETED
+            </keyword>
+            can_telnet=1
+            can_ssh=1
+            procname=GS7
+        </GS7>
+        <GS8>
+            IP =4
+            port =9927
+            path=/home/FS_server/GS8/
+            log = gs.log
+            rscript = ./run_newgs.sh
+             taskset =
+            <keyword>
+                start = GS STARTUP COMPLETED
+                stop = GS8 STOP COMPLETED
+            </keyword>
+            can_telnet=1
+            can_ssh=1
+            procname=GS8
+        </GS8>
+        <GS9>
+            IP =5
+            port =9928
+            path=/home/FS_server/GS9/
+            log = gs.log
+            rscript = ./run_newgs.sh
+             taskset =
+            <keyword>
+                start = GS STARTUP COMPLETED
+                stop = GS9 STOP COMPLETED
+            </keyword>
+            can_telnet=1
+            can_ssh=1
+            procname=GS9
+        </GS9>
+        <GS10>
+            IP =5
+            port =9929
+            path=/home/FS_server/GS10/
+            log = gs.log
+            rscript = ./run_newgs.sh
+             taskset =
+            <keyword>
+                start = GS STARTUP COMPLETED
+                stop = GS10 STOP COMPLETED
+            </keyword>
+            can_telnet=1
+            can_ssh=1
+            procname=GS10
+        </GS10>
+        <GS11>
+            IP =5
+            port =9950
+            path =  /home/FS_server/GS11/
+            log = gs.log
+            rscript = ./run_newgs.sh
+             taskset =
+            <keyword>
+                start = GS STARTUP COMPLETED
+                stop = GS11 STOP COMPLETED
+            </keyword>
+            can_telnet=1
+            can_ssh=1
+            procname=GS11
+        </GS11>
+        <GS12>
+            IP =12
+            port =9951
+            path=/home/FS_server/GS12/
+            log = gs.log
+            rscript = ./run_newgs.sh
+            taskset =
+            <keyword>
+                start = GS STARTUP COMPLETED
+                stop = GS12 STOP COMPLETED
+            </keyword>
+            can_telnet=1
+            can_ssh=1
+            procname=GS12
+        </GS12>
+        <BCS1>
+            IP =1
+            port =9930
+			path=/home/FS_server/BCS1/
+            log = bcs.log
+            rscript = ./run_newbcs.sh
+             taskset =
+            <keyword>
+                start = BCS STARTUP COMPLETED
+                stop = BCS1 STOP COMPLETED
+            </keyword>
+            can_telnet=1
+            can_ssh=1
+            procname=BCS1
+        </BCS1>
+        <BCS2>
+            IP =1
+            port =9931
+            path=/home/FS_server/BCS2/
+            log = bcs.log
+            rscript = ./run_newbcs.sh
+             taskset =
+            <keyword>
+                start = BCS STARTUP COMPLETED
+                stop = BCS2 STOP COMPLETED
+            </keyword>
+            can_telnet=1
+            can_ssh=1
+            procname=BCS2
+        </BCS2>
+        <BCS3>
+            IP =2
+            port =9932
+            path=/home/FS_server/BCS3/
+            log = bcs.log
+            rscript = ./run_newbcs.sh
+             taskset =
+            <keyword>
+                start = BCS STARTUP COMPLETED
+                stop  = BCS3 STOP COMPLETED
+            </keyword>
+            can_telnet=1
+            can_ssh=1
+            procname=BCS3
+        </BCS3>
+        <BCS4>
+            IP =2
+            port =9933
+            path=/home/FS_server/BCS4/
+            log = bcs.log
+            rscript = ./run_newbcs.sh
+             taskset =
+            <keyword>
+                start = BCS STARTUP COMPLETED
+                stop = BCS4 STOP COMPLETED
+            </keyword>
+            can_telnet=1
+            can_ssh=1
+            procname=BCS4
+        </BCS4>
+        <BCS5>
+            IP =3
+            port =9934
+            path=/home/FS_server/BCS5/
+            log = bcs.log
+            rscript = ./run_newbcs.sh
+             taskset =
+            <keyword>
+                start = BCS STARTUP COMPLETED
+                stop = BCS5 STOP COMPLETED
+            </keyword>
+            can_telnet=1
+            can_ssh=1
+            procname=BCS5
+        </BCS5>
+        <BCS6>
+            IP =3
+            port =9935
+            path=/home/FS_server/BCS6/
+            log = bcs.log
+            rscript = ./run_newbcs.sh
+             taskset =
+            <keyword>
+                start = BCS STARTUP COMPLETED
+                stop = BCS6 STOP COMPLETED
+            </keyword>
+            can_telnet=1
+            can_ssh=1
+            procname=BCS6
+        </BCS6>
+        <BCS7>
+            IP =4
+            port =9936
+            path=/home/FS_server/BCS7/
+            log = bcs.log
+            rscript = ./run_newbcs.sh
+             taskset =
+            <keyword>
+                start = BCS STARTUP COMPLETED
+                stop = BCS7 STOP COMPLETED
+            </keyword>
+            can_telnet=1
+            can_ssh=1
+            procname=BCS7
+        </BCS7>
+        <BCS8>
+            IP =4
+            port =9937
+            path=/home/FS_server/BCS8/
+            log = bcs.log
+            rscript = ./run_newbcs.sh
+             taskset =
+            <keyword>
+                start = BCS STARTUP COMPLETED
+                stop = BCS8 STOP COMPLETED
+            </keyword>
+            can_telnet=1
+            can_ssh=1
+            procname=BCS8
+        </BCS8>
+        <BCS9>
+            IP =5
+            port =9938
+            path=/home/FS_server/BCS9/
+            log = bcs.log
+            rscript = ./run_newbcs.sh
+             taskset =
+            <keyword>
+                start = BCS STARTUP COMPLETED
+                stop = BCS9 STOP COMPLETED
+            </keyword>
+            can_telnet=1
+            can_ssh=1
+            procname=BCS9
+        </BCS9>
+        <BCS10>
+            IP =5
+            port =9939
+            path=/home/FS_server/BCS10/
+            log = bcs.log
+            rscript = ./run_newbcs.sh
+             taskset =
+            <keyword>
+                start = BCS STARTUP COMPLETED
+                stop = BCS10 STOP COMPLETED
+            </keyword>
+            can_telnet=1
+            can_ssh=1
+            procname=BCS10
+        </BCS10>
+        <BCS11>
+            IP =5
+            port =9940
+            path=/home/FS_server/BCS11/
+            log = bcs.log
+            rscript = ./run_newbcs.sh
+             taskset =
+            <keyword>
+                start = BCS STARTUP COMPLETED
+                stop = BCS11 STOP COMPLETED
+            </keyword>
+            can_telnet=1
+            can_ssh=1
+            procname=BCS11
+        </BCS11>
+        <BCS12>
+            IP =6
+            port =9941
+            path=/home/FS_server/BCS12/
+            log = bcs.log
+            rscript = ./run_newbcs.sh
+            taskset =
+            <keyword>
+                start = BCS STARTUP COMPLETED
+                stop = BCS12 STOP COMPLETED
+            </keyword>
+            can_telnet=1
+            can_ssh=1
+            procname=BCS12
+        </BCS12>
+        <LS>
+            IP =11
+            port =9915
+            path=/home/FS_server/LS/
+            log = ls.log
+            rscript = ./run_newls.sh
+            taskset =
+            <keyword>
+                start = LS STARTUP COMPLETED
+                stop = LS STOP COMPLETED
+            </keyword>
+            can_telnet=1
+            can_ssh=1
+            procname=LS
+        </LS>
+        <CCS>
+            IP =7
+            port =9917
+            path=/home/FS_server/CCS/
+            log = ccs.log
+            alarm_1 =/home/FS_server/CCS/log/modules/alarm_1.log
+            rscript = ./run_newccs.sh
+            taskset =
+            <keyword>
+                start = CCS STARTUP COMPLETED
+                stop = CCS STOP COMPLETED
+            </keyword>
+            can_telnet=1
+            can_ssh=1
+            procname=CCS
+        </CCS>
+        <DBS>
+            IP =7
+            port =9911
+            path=/home/FS_server/DBS/
+            log = dbs.log
+            rscript = ./run_newdbs.sh
+             taskset =
+            <keyword>
+                start = DBS STARTUP COMPLETED
+                stop = DBS STOP COMPLETED
+            </keyword>
+            can_telnet=1
+            can_ssh=1
+            procname=DBS
+        </DBS>
+        <DBI>
+            IP =7
+            port =9913
+            path=/home/FS_server/DBI/
+            log = dbi.log
+            rscript = ./run_newdbi.sh
+             taskset =
+            <keyword>
+                start = DBI STARTUP COMPLETED
+                stop = DBI STOP COMPLETED
+            </keyword>
+            can_telnet=1
+            can_ssh=1
+            procname=DBI
+        </DBI>
+        <BLOB>
+            IP =7
+            port =9914
+            path=/home/FS_server/BlobUpdate/
+            log =
+            rscript = ./BLOB
+             taskset =
+            <keyword>
+                start = blob passed
+                stop = BLOB STOP COMPLETED
+            </keyword>
+            can_telnet=1
+            can_ssh=1
+            procname=BLOB
+        </BLOB>
+        <SCS>
+            IP =7
+            port =
+            path=/home/FS_server/SCS/
+            log = scs.log
+            rscript = ./run_newscs.sh
+             taskset =
+            <keyword>
+                start = SCS STARTUP COMPLETED
+                stop = SCS STOP COMPLETED
+            </keyword>
+            can_telnet=0
+            can_ssh=1
+            procname=SCS
+        </SCS>
+        <APEX>
+            IP =7
+            port =
+            path=/home/svr/ax_update/
+            log =
+            rscript = ./AHNetServer
+             taskset =
+            <keyword>
+                start =
+                stop =
+            </keyword>
+            can_telnet=0
+            can_ssh=1
+            procname=AHNetServer
+        </APEX>
+        <DBM>
+            IP =12
+            port =9912
+            path=/home/FS_server/DBM/
+            log = dbm.log
+            rscript = ./run_newdbm.sh
+             taskset =
+            <keyword>
+                start = DBM STARTUP COMPLETED
+                stop = DBM STOP COMPLETED
+            </keyword>
+            can_telnet=1
+            can_ssh=1
+            procname=DBM
+        </DBM>
+    </gmod>
+    <gdir>
+        <verdir>
+            IP     = 6
+            dstdir = /home/server/
+            bakdir = /home/backup/
+            nfsdir = /mnt/server/
+        </verdir>
+        scriptdir= /mnt/script/
+    </gdir>
+    <gscript>
+        rmt_upload = remote_upload.sh
+        rmt_start  = remote_start.sh
+        rmt_update = remote_update.sh
+        rmt_maint  = remote_maint.sh
+    </gscript>
+    <gconfig>
+        pre_name   =
+        scs_domain =
+        scs_port   =
+	apex_port  =
+	bakdb	   = game
+    </gconfig>
+</template31>
